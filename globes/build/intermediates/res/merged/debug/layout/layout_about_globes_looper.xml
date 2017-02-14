@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_text_container_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/textView_first_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="3dp"
+            android:gravity="right"
+            android:text="באפשרותך להוסיף,להסיר ולשנות סדר תצוגת \nניירות ערך בפסנוע המדדים"
+            android:textColor="@color/black"
+            android:textSize="13sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView_second_part_first_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_first_line"
+            android:layout_marginTop="3dp"
+            android:gravity="right"
+            android:text="בכדי להוסיף ניירות ערך לפסנוע המדדים יש"
+            android:textColor="@color/black"
+            android:textSize="13sp" >
+        </TextView>
+
+        <RelativeLayout
+            android:id="@+id/relative_layout_text_with_star_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_second_part_first_line"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/textView_second_part_second_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:gravity="right"
+                android:text="ללחוץ על אייקון הכוכבית "
+                android:textColor="@color/black"
+                android:textSize="13sp" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView_grey_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView_second_part_second_line"
+                android:layout_marginRight="1dp"
+                android:layout_toLeftOf="@+id/textView_second_part_second_line"
+                android:background="@drawable/grey_star_small_for_list" />
+
+            <TextView
+                android:id="@+id/textView_second_part_third_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView_second_part_second_line"
+                android:layout_marginRight="1dp"
+                android:layout_toLeftOf="@+id/imageView_grey_star"
+                android:text="שנמצא ליד"
+                android:textColor="@color/black"
+                android:textSize="13sp" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView_second_part_second_line"
+                android:gravity="right"
+                android:text="שמות ניירות הערך בכל מקום באפליקציה"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_layout_third_part_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative_layout_text_with_star_container"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/textView_third_part_first_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:gravity="right"
+                android:text="בכדי לשנות את סדר התצוגה יש להיכנס"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView_third_part_second_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView_third_part_first_line"
+                android:layout_marginTop="1dp"
+                android:gravity="right"
+                android:text="למצב עריכה, ללחוץ על הסמן הימיני"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_layout_text_container_about"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <Button
+            android:id="@+id/Button_shares_list_from_about_looper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_shares_list_from_about" />
+
+        <Button
+            android:id="@+id/Button_portfolio_list_from_about_looper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_portfolio_from_about" />
+
+        <Button
+            android:id="@+id/Button_markets_list_from_about_looper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_markets_list_from_about" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout_buttons_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="הנתונים בהשהיה של 20 דקות"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+</RelativeLayout>

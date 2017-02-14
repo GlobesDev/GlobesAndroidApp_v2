@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <HorizontalScrollView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/front"
+        android:layout_alignTop="@+id/front"
+        android:layout_marginRight="50dp"
+        android:fillViewport="true"
+        android:tag="back" >
+
+        <LinearLayout
+            android:id="@+id/contenair_tagiot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:id="@+id/front"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:orientation="vertical"
+        android:tag="front" >
+
+        <ImageView
+            android:id="@+id/imageView_big_article"
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/about"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/textView_big_article_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView_big_article"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="16dp"
+            android:gravity="right"
+            android:textSize="23.5sp"
+            android:textStyle="bold" />
+
+       <Button
+            android:id="@+id/buttonShareVideo"
+            android:layout_width="40dp"
+            android:layout_height="32dp"
+            android:layout_alignBottom="@id/imageView_big_article"
+            android:layout_alignRight="@id/imageView_big_article"
+            android:background="@drawable/share_tv_row"
+            android:focusable="false"
+            android:onClick="btnShareVideo_onClick"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/front" />
+
+</RelativeLayout>

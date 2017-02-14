@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_search_all.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_search_all.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_share_graph_weekly_colors.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_share_graph_weekly_colors.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\abs__primary_text_holo_dark.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\color\\abs__primary_text_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_backward.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_backward.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_light.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\color\\common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\rowlayout_color_emphasized.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\rowlayout_color_emphasized.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\rowlayout_color.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\rowlayout_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_login.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_share_graph_six_monthes_colors.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_share_graph_six_monthes_colors.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_share_graph_yearly_colors.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_share_graph_yearly_colors.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_share_graph_monthly_colors.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_share_graph_monthly_colors.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\rowlayout_group_color.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\rowlayout_group_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_share_graph_daily_colors.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_share_graph_daily_colors.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\color\\wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_pf_share_add.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_pf_share_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\vpi__light_theme.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\viewpageindicator\\unspecified\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\abs__primary_text_disable_only_holo_dark.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\color\\abs__primary_text_disable_only_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_logout.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_pf_share_cancel.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_pf_share_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\abs__primary_text_holo_light.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\color\\abs__primary_text_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_reduce.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_reduce.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\vpi__dark_theme.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\viewpageindicator\\unspecified\\res\\color\\vpi__dark_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_add_response.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_add_response.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_share.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_play.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\rowlayout_white.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\rowlayout_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_enlarge.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_enlarge.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\color\\common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\abs__primary_text_disable_only_holo_light.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\color\\abs__primary_text_disable_only_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_back_big.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_back_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_new_user.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_new_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\color\\button_forward.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\color\\button_forward.xml"
+    }
+]

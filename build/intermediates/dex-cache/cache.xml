@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="53b99d36ded784964b2edc86d71b7bf435ab35af">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\10\tensera-tenserasdk-1.100_d320de443da9961d6e7a05ab5ece25abf5470820\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\libs\WoorldsSDK.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="df72852f26555d7957e3c96d8d4eef3781928796">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\2\WoorldsSDK_d589b3f1337a7b1f3113a0cdb466a9a44e2cfdb4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\libs\ima-sdk-3.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2554952c52543be17891a8a7310deca8de78c149">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\2\ima-sdk-3.3.2_ae5d89c0e6934e8b6332fa33bc2065f8c136028f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.0_f25a8e459a5f021a630b5bba866c7146741c7b2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\libs\android-async-http-1.4.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.4_35548b1c5a394c44ccf86c97d61f3afa4c7c0d45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\libs\pushappssdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7ecf25b578656e2715294eef98fd44ca034c2b55">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\2\pushappssdk_c5dc238a80ef0d474614f40dea6837cec9b6dd90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ec37f365d20af1a5563b68abc2103fdba72aca5d">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5f47c3d0310d9825c0214d42395c26342b592405\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_864a3699f878e0627f13c4e30ef45e538929dad6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\libs\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.5.2_26811b3266777e09a6034f8a05f76f883d5c6985\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\facebooksdk\unspecified\jars\libs\bolts-android-1.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7b469c3daeb365261419cebcc3d8ef2ad31b00e">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\8\bolts-android-1.1.2_9481d07712c15844303fc9e6e3a1ba8d3fee8aac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\libs\libGoogleAnalytics.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a2c47f5364e5167695d879c75598556e11c992c0">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\2\libGoogleAnalytics_23a5b64cc64b0aeed64036eb606855c1ff0978e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.0.2\de8416eda7b2fd7c25836b140c39e1cbf10542f6\dagger-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="de8416eda7b2fd7c25836b140c39e1cbf10542f6">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\10\dagger-2.0.2_48277dbf03d43a7a1104592630488240060dbc5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\libs\sekindoandroidsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f9eb06130824dc5cc8402245d7cdfe54a0b873a9">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\2\sekindoandroidsdk_a19ba5989001327ff2fdf51a194691824ce3de95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\libs\AF-Android-SDK-v2.3.1.11.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e8167d2d50e926497aa783338c7feb42df8b8b46">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\2\AF-Android-SDK-v2.3.1.11_35f9edfef325815dc8e86b772de147f905aaa34b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\10\javax.inject-1_2e63e5df50e4e314933696990a5816f70cf0662b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\libs\commons-lang3-3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\2\commons-lang3-3.1_f68edec6f0f1d596cfb58f5b506136684b9757ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_0196facb832a39681cc599d20cba74d851bd9584\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_798725e5287705c6f9a79c887cd154859edb67a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\com.github.castorflex.smoothprogressbar\library\0.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6ca319f998430aa20c4dde97ba6df213d6cf3dd0">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.castorflex.smoothprogressbar-library-0.4.0_63885c5e4ebd7094bf5e719f1c9111a9d9cb1488\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\libs\internal_impl-21.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.0_36ae75bb9a3c28e259b10363f63f1ea8491adc07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\libs\OBSDK.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="49852f758832cb05cb3e92831c0f5e54431bdd1b">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\2\OBSDK_bf45e923772965f2d905b9b60d16cb132fe55d92\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="156364fe2b2415fe94c3d91bfaa25274e76dab82">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a651295ee19db93d6cc956dfda83fa2978f7621a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2852e6e05fbb95076fc091f6d1780f1f8fe35e0f">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\10\commons-io-2.5_32f0cf5bacef68994050d753401279342b6ec98d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-1.9.0_4eca670a05b9a059d8ec8a852e82f62bd1757424\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\google_play_services\unspecified\jars\libs\google-play-services.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f49cf6c8a54e61c0bb3f25652ed3a4d4f0e19ad0">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\8\google-play-services_8f93195c2e4471ddc951c91951f654a2d2a40287\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\libs\crashlytics.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0e821eafa1bf489a26bdb71f95078c26785b37a1">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\2\crashlytics_5ebaa8bd9872b54ffbc82f7590a54ca9e9be5e19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\libs\spotim_sdk_v1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c7cecff24f686e9784cc90df0fc1f122be6a861c">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\2\spotim_sdk_v1.2_053b796e25f64c1cd3a20f42e001cbb6884c7b27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.0_13b80a52d87987965910243087693fd654abc723\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\libs\justadsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f7ac7d64548e614c373abef17a3275ff1cebf741">
+        <dex dex="C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\dex\debug\folders\1000\2\justadsdk_d109e099835f7bef0724e176279a66e3f4625968\classes.dex" />
+    </item>
+
+</items>

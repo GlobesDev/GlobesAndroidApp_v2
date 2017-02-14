@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sekindoandroidsdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/globes/libs/sekindoandroidsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

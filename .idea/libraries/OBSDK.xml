@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="OBSDK">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/globes/libs/OBSDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

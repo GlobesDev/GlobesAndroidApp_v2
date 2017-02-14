@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="il.co.globes.android"
+    android:versionCode="67"
+    android:versionName="2.111" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- require for gcm -->
+    <permission
+        android:name="il.co.globes.android.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="il.co.globes.android.permission.C2D_MESSAGE" />
+    <!-- App receives GCM messages. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:name="il.co.globes.android.AppRegisterForPushApps"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver android:name="com.woorlds.woorldssdk.StartupReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.woorlds.woorldssdk.WoorldsService" />
+        <!-- the key that is give to you by woorlds -->
+        ‎
+        <meta-data
+            android:name="com.woorlds.ApiKey"
+            android:value="14a6a87d-750f-4877-996c-0b07bf00c761" />
+
+        <activity
+            android:name="il.co.globes.android.SplashScreen"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- Test for URL scheme -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="globes" />
+            </intent-filter>
+            <!-- End Test for URL scheme -->
+
+
+            <!--
+                        <intent-filter android:label="filter_title_view_article">
+                            <action android:name="android.intent.action.VIEW" />
+                            <category android:name="android.intent.category.DEFAULT" />
+                            <category android:name="android.intent.category.BROWSABLE" />
+                            <data android:scheme="http"
+                                  android:host="globes.co.il"
+                                  android:pathPrefix="/news/article" />
+                            <data android:scheme="http"
+                                  android:host="www.globes.co.il"
+                                  android:pathPrefix="/news/article" />
+                        </intent-filter>
+
+                         <intent-filter android:label="filter_title_view_folder">
+                            <action android:name="android.intent.action.VIEW" />
+                            <category android:name="android.intent.category.DEFAULT" />
+                            <category android:name="android.intent.category.BROWSABLE" />
+                            <data android:scheme="http"
+                                  android:host="globes.co.il"
+                                  android:pathPrefix="/news/home.aspx" />
+                            <data android:scheme="http"
+                                  android:host="www.globes.co.il"
+                                  android:pathPrefix="/news/home.aspx" />
+                        </intent-filter>
+            -->
+
+        </activity>
+
+        <receiver
+            android:name="com.appsflyer.MultipleInstallBroadcastReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+        <receiver
+            android:name="com.google.ads.conversiontracking.InstallReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        -->
+        <!--
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|smallestScreenSize|screenSize" >
+        </activity>
+        -->
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|smallestScreenSize|screenSize" />
+        <activity
+            android:name="il.co.globes.android.MainTabActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.SplashArticle"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.TVListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.SharesListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.CompanyActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.ManagerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.Pager_test"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.MarketsListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.SectionsListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.SectionListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.FinancialPortalActivity"
+            android:label="@string/financial_portal"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.DocumentActivity"
+            android:label="@string/document"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.DocumentResponsesActivity"
+            android:configChanges="orientation"
+            android:label="@string/document"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.DocumentSearchListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.ShareActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.GlobesPreferences"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.AboutActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.PortfolioActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.LoginActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.NewLoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.TermsOfUse"
+            android:configChanges="orientation"
+            android:label="@string/document"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity android:name="il.co.globes.android.AttachmentPicker" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.NewDocumentActivity"
+            android:label="@string/document"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.SettingsActivity"
+            android:label="@string/document"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity android:name="com.sekindo.ads.SekindoLastPreloaderActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>
+
+        <!-- pushapps start -->
+
+        <activity
+            android:name="mobi.pushapps.PAActivity"
+            android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="pushapps-3c1e835f-8b0c-4981-8fd9-a845cc81df90" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mobi.pushapps.PAPopup"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="PushApps_SdkKey"
+            android:value="3c1e835f-8b0c-4981-8fd9-a845cc81df90" />
+        <meta-data
+            android:name="PushApps_SenderId"
+            android:value="pa:273040325684" />
+        <meta-data
+            android:name="PushApps_NotificationIcon"
+            android:resource="@drawable/icon_launcher2" />
+
+        <receiver
+            android:name="mobi.pushapps.sync.PASyncConfigurationReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="mobi.pushapps.sync.SYNC_CONFIGURATIONS" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="mobi.pushapps.sync.PASyncRecommendationsReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="mobi.pushapps.sync.SYNC_RECOMMENDATIONS" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="mobi.pushapps.events.PASyncEventsReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="mobi.pushapps.events.SYNC_EVENTS" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="il.co.globes.android" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="net.tensera.sdk.gcm.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="il.co.globes.android" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="net.tensera.sdk.config.TimeChangedReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="mobi.pushapps.gcm.PAGcmListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="il.co.globes.android" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="mobi.pushapps.gcm.PAInstanceIDListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="mobi.pushapps.gcm.PARegistrationIntentService"
+            android:exported="false" >
+        </service>
+
+        <!--
+        receiver
+            android:name="com.groboot.pushapps.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="il.co.globes.android" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.groboot.pushapps.GCMBaseIntentServiceImpl" />
+
+        <activity
+            android:name="com.groboot.pushapps.PushActivity"
+            android:configChanges="orientation|keyboardHidden" />
+
+        <service android:name="com.groboot.pushapps.LocationService" /
+        -->
+
+
+        <!-- pushapps end -->
+        <!-- GCM start -->
+        <!--
+        service android:name=".GCMIntentService" />
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="il.co.globes.android" />
+            </intent-filter>
+        </receiver
+        -->
+        <!-- GCM end -->
+        <activity
+            android:name="il.co.globes.android.fragments.TickerPreferencesFragment"
+            android:label="@string/title_activity_looper_preferences"
+            android:screenOrientation="portrait"
+            android:theme="@style/newsStyle" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.RowAdActivity"
+            android:label="@string/title_activity_row_ad"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.VideoActivity"
+            android:label="@string/title_activity_video"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.MainSlidingActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/title_activity_main_sliding"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.VideoWebViewActivity"
+            android:label="@string/title_activity_video_web_view" >
+        </activity>
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="Facebook login" >
+        </activity>
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="ca5e2efaab648819cbd6a19f519d86644c709d3f" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="il.co.globes.android.AddRemoveShareTikAishiActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.native_video_player.PlayVideoActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="il.co.globes.android.ima.v3.player.PlayerImaActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".ima.v3.player.PlayerImaActivity" -->
+        <!-- android:label="@string/app_name" -->
+        <!-- android:launchMode="singleTop" -->
+        <!-- android:screenOrientation="landscape" -->
+        <!-- android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" > -->
+        <!-- </activity> -->
+        <activity
+            android:name="il.co.globes.android.DocumentActivity_new"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <service android:name="net.tensera.sdk.gcm.PrefetchIntentService" />
+        <!--
+        TransmissionService is part of the REPORTER SDK, but defined at this level again for devkit support,
+        because our FAT AAR build process does not merge definitions from the Reporter's AndroidManifest into this one
+        -->
+        <service android:name="net.tensera.sdk.network.TransmitReportsService" />
+        <service
+            android:name="net.tensera.sdk.reports.TransmitPeriodicService"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="net.tensera.sdk.prefetching.PrefetchRetryInvokerService"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="net.tensera.sdk.config.ServiceMapUpdateService"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="net.tensera.sdk.gcm.InstanceIdRefreshService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="net.tensera.sdk.utils.UpgradeReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

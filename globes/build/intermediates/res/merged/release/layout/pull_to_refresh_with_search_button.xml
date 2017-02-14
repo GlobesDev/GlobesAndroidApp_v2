@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/searchbar" >
+
+        <Button
+            android:id="@+id/button_search"
+            android:layout_width="49dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/button_search_all" />
+
+        <EditText
+            android:id="@+id/editTextSearchStock"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="1dp"
+            android:layout_toLeftOf="@id/button_search"
+            android:inputType="text"
+            android:maxLines="1" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:textSize="5sp" />
+
+    <!--
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" >
+
+        <ImageView
+            android:id="@+id/smallBanner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/android:list"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:visibility="gone" >
+        </ImageView>
+    </FrameLayout>
+    -->
+
+    <RelativeLayout
+                android:id="@+id/frameAdViewContainer_Pull_to_refresh"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom" >
+
+        <!-- this is google's example ad /6253334/dfp_example_ad -->
+        <!-- old code /7263/Android.article_banner -->
+        <!-- new code /7263/Android.462_100 -->
+        <!-- /7263/IPhone.middle_Banner -->
+        <!-- /7263/Android.banner.psagot -->
+
+        <com.google.android.gms.ads.doubleclick.PublisherAdView
+            android:id="@+id/adViewDocumentSearchListActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="/43010785/globes/floating.globes.ros"
+             />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/AdContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent" >
+
+        <tv.justad.sdk.view.JustAdView
+            android:id="@+id/justAdView_RICH_MEDIA_pull_to_refresh_with_search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

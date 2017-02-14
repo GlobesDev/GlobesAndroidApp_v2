@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/realtiveLayout_close_buttton_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/globes_title_backgroud"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_close_add_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/closed_button1_640_960"
+                android:gravity="right" />
+
+            <ImageView
+                android:id="@+id/imageView_logo_add_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/logo" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView_select_tik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="בחר תיק להוספה או הסרה של מניה"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView_add_remove_share_from_tik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:listSelector="@color/transparent" >
+    </ListView>
+
+</LinearLayout>

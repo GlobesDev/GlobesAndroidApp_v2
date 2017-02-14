@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\menu\\video.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\menu\\video.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\menu\\row_ad.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\menu\\row_ad.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\menu\\main_sliding.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\menu\\main_sliding.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\menu\\video_web_view.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\menu\\video_web_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\menu\\looper_preferences.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\menu\\looper_preferences.xml"
+    }
+]

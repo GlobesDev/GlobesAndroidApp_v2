@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_small_article_opinion"
+    android:paddingBottom="3dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="3dp" >
+
+    <ImageView
+        android:id="@+id/imageView_left_menu_small_article_opinion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="1dp"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView_left_menu_small_article_opinion"
+        android:layout_alignLeft="@+id/imageView_left_menu_small_article_opinion"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView_left_menu_small_article_opinion"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_circle_small_article_opinion" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/imageView_left_menu_small_article_opinion"
+        android:orientation="vertical"
+        android:paddingRight="16dp" >
+
+        <TextView
+            android:id="@+id/textView_left_menu_author_name_f7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:text="סטלה קורין-ליבר"
+            android:textColor="@color/LightGray" />
+
+        <TextView
+            android:id="@+id/textView_left_menu_article_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="right|center_vertical"
+            android:text="דילים בלי בושה"
+            android:textColor="@color/Black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView_left_menu_article_created_on"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="right|center_vertical"
+            android:text="09/05/2014 07:26:00"
+            android:textColor="@color/LightGray"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView_actionBar_center_logo"
+        android:layout_width="96dp"
+        android:layout_height="21.5dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView_actionBar_right_icon"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentRight="true"
+        android:background="#feebe2"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_action_btn_menu" />
+
+   
+
+     <ImageView
+        android:id="@+id/btn_home"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/btn_home"
+         />
+
+</RelativeLayout>

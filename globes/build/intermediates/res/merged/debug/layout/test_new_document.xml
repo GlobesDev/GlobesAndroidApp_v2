@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+       <RelativeLayout
+                android:id="@+id/actionBar_custom_document"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/White" >
+
+                <TextView
+                    android:id="@+id/textView_comments_actionBar_document"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp" android:gravity="center" android:paddingBottom="4dp"
+                    android:background="@drawable/btn_comment_document"
+                    android:text="20"
+                    android:textColor="#cc0000" />
+
+                <ImageView
+                    android:id="@+id/imageView_share_actionBar_document"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@+id/textView_comments_actionBar_document"
+                    android:background="@drawable/btn_share_document" />
+
+                <ImageView
+                    android:id="@+id/imageView_fb_actionBar_document"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@+id/imageView_share_actionBar_document"
+                    android:background="@drawable/btn_fb_document" />
+
+                <ImageView
+                    android:id="@+id/imageView_textSize_actionBar_document"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@+id/imageView_fb_actionBar_document"
+                    android:background="@drawable/btn_textsize_document" />
+
+                <ImageView
+                    android:id="@+id/imageView_back_actionBar_document"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/btn_back_document" />
+            </RelativeLayout>
+
+</RelativeLayout>

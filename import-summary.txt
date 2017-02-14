@@ -1,0 +1,340 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From FacebookSDK:
+* AndroidManifest.xml
+* build.gradle
+* build.xml
+* lint.xml
+* res\
+* res\drawable-hdpi\
+* res\drawable-hdpi\com_facebook_button_blue_focused.9.png
+* res\drawable-hdpi\com_facebook_button_blue_normal.9.png
+* res\drawable-hdpi\com_facebook_button_blue_pressed.9.png
+* res\drawable-hdpi\com_facebook_button_grey_focused.9.png
+* res\drawable-hdpi\com_facebook_button_grey_normal.9.png
+* res\drawable-hdpi\com_facebook_button_grey_pressed.9.png
+* res\drawable-hdpi\com_facebook_button_like_background.png
+* res\drawable-hdpi\com_facebook_button_like_background_selected.png
+* res\drawable-hdpi\com_facebook_button_like_icon.png
+* res\drawable-hdpi\com_facebook_button_like_icon_selected.png
+* res\drawable-hdpi\com_facebook_button_like_pressed.png
+* res\drawable-hdpi\com_facebook_close.png
+* res\drawable-hdpi\com_facebook_inverse_icon.png
+* res\drawable-hdpi\com_facebook_logo.png
+* res\drawable-hdpi\com_facebook_picker_magnifier.png
+* res\drawable-hdpi\com_facebook_tooltip_black_background.9.png
+* res\drawable-hdpi\com_facebook_tooltip_black_bottomnub.png
+* res\drawable-hdpi\com_facebook_tooltip_black_topnub.png
+* res\drawable-hdpi\com_facebook_tooltip_black_xout.png
+* res\drawable-hdpi\com_facebook_tooltip_blue_background.9.png
+* res\drawable-hdpi\com_facebook_tooltip_blue_bottomnub.png
+* res\drawable-hdpi\com_facebook_tooltip_blue_topnub.png
+* res\drawable-hdpi\com_facebook_tooltip_blue_xout.png
+* res\drawable-ldpi\
+* res\drawable-ldpi\com_facebook_close.png
+* res\drawable-mdpi\
+* res\drawable-mdpi\com_facebook_button_blue_focused.9.png
+* res\drawable-mdpi\com_facebook_button_blue_normal.9.png
+* res\drawable-mdpi\com_facebook_button_blue_pressed.9.png
+* res\drawable-mdpi\com_facebook_inverse_icon.png
+* res\drawable-mdpi\com_facebook_picker_magnifier.png
+* res\drawable-mdpi\com_facebook_tooltip_black_background.9.png
+* res\drawable-mdpi\com_facebook_tooltip_black_bottomnub.png
+* res\drawable-mdpi\com_facebook_tooltip_black_topnub.png
+* res\drawable-mdpi\com_facebook_tooltip_black_xout.png
+* res\drawable-mdpi\com_facebook_tooltip_blue_background.9.png
+* res\drawable-mdpi\com_facebook_tooltip_blue_bottomnub.png
+* res\drawable-mdpi\com_facebook_tooltip_blue_topnub.png
+* res\drawable-mdpi\com_facebook_tooltip_blue_xout.png
+* res\drawable-xhdpi\
+* res\drawable-xhdpi\com_facebook_button_blue_focused.9.png
+* res\drawable-xhdpi\com_facebook_button_blue_normal.9.png
+* res\drawable-xhdpi\com_facebook_button_blue_pressed.9.png
+* res\drawable-xhdpi\com_facebook_button_grey_focused.9.png
+* res\drawable-xhdpi\com_facebook_button_grey_normal.9.png
+* res\drawable-xhdpi\com_facebook_button_grey_pressed.9.png
+* res\drawable-xhdpi\com_facebook_button_like_background.png
+* res\drawable-xhdpi\com_facebook_button_like_background_selected.png
+* res\drawable-xhdpi\com_facebook_button_like_icon.png
+* res\drawable-xhdpi\com_facebook_button_like_icon_selected.png
+* res\drawable-xhdpi\com_facebook_button_like_pressed.png
+* res\drawable-xhdpi\com_facebook_close.png
+* res\drawable-xhdpi\com_facebook_inverse_icon.png
+* res\drawable-xhdpi\com_facebook_logo.png
+* res\drawable-xhdpi\com_facebook_picker_magnifier.png
+* res\drawable-xhdpi\com_facebook_tooltip_black_background.9.png
+* res\drawable-xhdpi\com_facebook_tooltip_black_bottomnub.png
+* res\drawable-xhdpi\com_facebook_tooltip_black_topnub.png
+* res\drawable-xhdpi\com_facebook_tooltip_black_xout.png
+* res\drawable-xhdpi\com_facebook_tooltip_blue_background.9.png
+* res\drawable-xhdpi\com_facebook_tooltip_blue_bottomnub.png
+* res\drawable-xhdpi\com_facebook_tooltip_blue_topnub.png
+* res\drawable-xhdpi\com_facebook_tooltip_blue_xout.png
+* res\drawable-xxhdpi\
+* res\drawable-xxhdpi\com_facebook_button_like_background.png
+* res\drawable-xxhdpi\com_facebook_button_like_background_selected.png
+* res\drawable-xxhdpi\com_facebook_button_like_icon.png
+* res\drawable-xxhdpi\com_facebook_button_like_icon_selected.png
+* res\drawable-xxhdpi\com_facebook_button_like_pressed.png
+* res\drawable\
+* res\drawable\com_facebook_button_blue.xml
+* res\drawable\com_facebook_button_blue_focused.9.png
+* res\drawable\com_facebook_button_blue_normal.9.png
+* res\drawable\com_facebook_button_blue_pressed.9.png
+* res\drawable\com_facebook_button_check.xml
+* res\drawable\com_facebook_button_check_off.png
+* res\drawable\com_facebook_button_check_on.png
+* res\drawable\com_facebook_button_grey_focused.9.png
+* res\drawable\com_facebook_button_grey_normal.9.png
+* res\drawable\com_facebook_button_grey_pressed.9.png
+* res\drawable\com_facebook_button_like.xml
+* res\drawable\com_facebook_button_like_background.png
+* res\drawable\com_facebook_button_like_background_selected.png
+* res\drawable\com_facebook_button_like_icon.png
+* res\drawable\com_facebook_button_like_icon_selected.png
+* res\drawable\com_facebook_button_like_pressed.png
+* res\drawable\com_facebook_button_like_selected.xml
+* res\drawable\com_facebook_close.png
+* res\drawable\com_facebook_inverse_icon.png
+* res\drawable\com_facebook_list_divider.9.png
+* res\drawable\com_facebook_list_section_header_background.9.png
+* res\drawable\com_facebook_loginbutton_silver.xml
+* res\drawable\com_facebook_logo.png
+* res\drawable\com_facebook_picker_item_background.xml
+* res\drawable\com_facebook_picker_list_focused.9.png
+* res\drawable\com_facebook_picker_list_longpressed.9.png
+* res\drawable\com_facebook_picker_list_pressed.9.png
+* res\drawable\com_facebook_picker_list_selector.xml
+* res\drawable\com_facebook_picker_list_selector_background_transition.xml
+* res\drawable\com_facebook_picker_list_selector_disabled.9.png
+* res\drawable\com_facebook_picker_top_button.xml
+* res\drawable\com_facebook_place_default_icon.png
+* res\drawable\com_facebook_profile_default_icon.png
+* res\drawable\com_facebook_profile_picture_blank_portrait.png
+* res\drawable\com_facebook_profile_picture_blank_square.png
+* res\drawable\com_facebook_top_background.xml
+* res\drawable\com_facebook_top_button.xml
+* res\drawable\com_facebook_usersettingsfragment_background_gradient.xml
+* res\layout\
+* res\layout\com_facebook_friendpickerfragment.xml
+* res\layout\com_facebook_login_activity_layout.xml
+* res\layout\com_facebook_picker_activity_circle_row.xml
+* res\layout\com_facebook_picker_checkbox.xml
+* res\layout\com_facebook_picker_image.xml
+* res\layout\com_facebook_picker_list_row.xml
+* res\layout\com_facebook_picker_list_section_header.xml
+* res\layout\com_facebook_picker_search_box.xml
+* res\layout\com_facebook_picker_title_bar.xml
+* res\layout\com_facebook_picker_title_bar_stub.xml
+* res\layout\com_facebook_placepickerfragment.xml
+* res\layout\com_facebook_placepickerfragment_list_row.xml
+* res\layout\com_facebook_search_bar_layout.xml
+* res\layout\com_facebook_tooltip_bubble.xml
+* res\layout\com_facebook_usersettingsfragment.xml
+* res\values-es\
+* res\values-es\strings.xml
+* res\values-hdpi\
+* res\values-hdpi\dimens.xml
+* res\values-he\
+* res\values-he\strings.xml
+* res\values-iw\
+* res\values-iw\strings.xml
+* res\values-ldpi\
+* res\values-ldpi\dimens.xml
+* res\values-mdpi\
+* res\values-mdpi\dimens.xml
+* res\values-xhdpi\
+* res\values-xhdpi\dimens.xml
+* res\values\
+* res\values\attrs.xml
+* res\values\colors.xml
+* res\values\drawables.xml
+* res\values\strings.xml
+* res\values\styles.xml
+From Globes:
+* Globes.cfg
+* crashlytics.properties
+* default.properties
+* hs_err_pid1960.log
+* hs_err_pid3572.log
+* hs_err_pid5952.log
+* hs_err_pid6020.log
+* proguard.cfg
+From NineOldlibrary:
+* AndroidManifest.xml
+* pom.xml
+From actionbarsherlock:
+* ActionBarPullTorefreshExtra-Actionbarsherlock - Shortcut.lnk
+* AndroidManifest.xml
+* build.gradle
+* gradle.properties
+* res\
+* res\anim\
+* res\anim\fade_in.xml
+* res\anim\fade_out.xml
+From library:
+* AndroidManifest.xml
+* LICENSE.txt
+* library.iml
+* lint.xml
+* pom.xml
+* res\
+* res\layout\
+* res\layout\slidingmenumain.xml
+* res\values\
+* res\values\attrs.xml
+* res\values\ids.xml
+From library1:
+* AndroidManifest.xml
+* pom.xml
+* res\
+* res\color\
+* res\color\vpi__dark_theme.xml
+* res\color\vpi__light_theme.xml
+* res\drawable-hdpi\
+* res\drawable-hdpi\vpi__tab_selected_focused_holo.9.png
+* res\drawable-hdpi\vpi__tab_selected_holo.9.png
+* res\drawable-hdpi\vpi__tab_selected_pressed_holo.9.png
+* res\drawable-hdpi\vpi__tab_unselected_focused_holo.9.png
+* res\drawable-hdpi\vpi__tab_unselected_holo.9.png
+* res\drawable-hdpi\vpi__tab_unselected_pressed_holo.9.png
+* res\drawable-mdpi\
+* res\drawable-mdpi\vpi__tab_selected_focused_holo.9.png
+* res\drawable-mdpi\vpi__tab_selected_holo.9.png
+* res\drawable-mdpi\vpi__tab_selected_pressed_holo.9.png
+* res\drawable-mdpi\vpi__tab_unselected_focused_holo.9.png
+* res\drawable-mdpi\vpi__tab_unselected_holo.9.png
+* res\drawable-mdpi\vpi__tab_unselected_pressed_holo.9.png
+* res\drawable-xhdpi\
+* res\drawable-xhdpi\vpi__tab_selected_focused_holo.9.png
+* res\drawable-xhdpi\vpi__tab_selected_holo.9.png
+* res\drawable-xhdpi\vpi__tab_selected_pressed_holo.9.png
+* res\drawable-xhdpi\vpi__tab_unselected_focused_holo.9.png
+* res\drawable-xhdpi\vpi__tab_unselected_holo.9.png
+* res\drawable-xhdpi\vpi__tab_unselected_pressed_holo.9.png
+* res\drawable\
+* res\drawable\vpi__tab_indicator.xml
+* res\values\
+* res\values\vpi__attrs.xml
+* res\values\vpi__colors.xml
+* res\values\vpi__defaults.xml
+* res\values\vpi__styles.xml
+From main:
+* java\
+* java\fr\
+* java\fr\castorflex\
+* java\fr\castorflex\android\
+* java\fr\castorflex\android\smoothprogressbar\
+* java\fr\castorflex\android\smoothprogressbar\SmoothProgressBar.java
+* java\fr\castorflex\android\smoothprogressbar\SmoothProgressDrawable.java
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.4.0
+gcm.jar => com.google.android.gms:play-services:+
+gson-2.3.1.jar => com.google.code.gson:gson:2.3.1
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+actionbarsherlock =>
+    com.actionbarsherlock:actionbarsherlock:4.4.0@aar
+    com.android.support:support-v4:18.0.0
+google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In FacebookSDK:
+* libs\bolts-android-1.1.2.jar => facebookSDK\libs\bolts-android-1.1.2.jar
+* src\ => facebookSDK\src\main\java\
+In NineOldlibrary:
+* src\ => nineOldlibrary\src\main\java\
+In actionbarsherlock:
+* src\ => actionbarsherlock\src\main\java\
+In library:
+* src\ => library\src\main\java\
+In library1:
+* src\ => library1\src\main\java\
+In main:
+* AndroidManifest.xml => main\src\main\AndroidManifest.xml
+* assets\ => main\src\main\assets
+* res\ => main\src\main\res\
+* src\ => main\src\main\java\
+In pull_to_refresh:
+* AndroidManifest.xml => pull_to_refresh\src\main\AndroidManifest.xml
+* assets\ => pull_to_refresh\src\main\assets
+* lint.xml => pull_to_refresh\lint.xml
+* res\ => pull_to_refresh\src\main\res\
+* src\ => pull_to_refresh\src\main\java\
+In Globes:
+* AndroidManifest.xml => globes\src\main\AndroidManifest.xml
+* assets\ => globes\src\main\assets\
+* libs\AF-Android-SDK-v2.3.1.11.jar => globes\libs\AF-Android-SDK-v2.3.1.11.jar
+* libs\android-async-http-1.4.4.jar => globes\libs\android-async-http-1.4.4.jar
+* libs\commons-lang3-3.1.jar => globes\libs\commons-lang3-3.1.jar
+* libs\crashlytics.jar => globes\libs\crashlytics.jar
+* libs\GoogleConversionTrackingSdk-2.2.0.jar => globes\libs\GoogleConversionTrackingSdk-2.2.0.jar
+* libs\ima-sdk-3.3.2.jar => globes\libs\ima-sdk-3.3.2.jar
+* libs\justadsdk.jar => globes\libs\justadsdk.jar
+* libs\libGoogleAnalytics.jar => globes\libs\libGoogleAnalytics.jar
+* libs\libGoogleAnalyticsServices.jar => globes\libs\libGoogleAnalyticsServices.jar
+* libs\OBSDK.jar => globes\libs\OBSDK.jar
+* libs\picasso-2.2.0.jar => globes\libs\picasso-2.2.0.jar
+* libs\pushappssdk.jar => globes\libs\pushappssdk.jar
+* libs\retrofit-1.9.0.jar => globes\libs\retrofit-1.9.0.jar
+* libs\sekindoandroidsdk.jar => globes\libs\sekindoandroidsdk.jar
+* libs\spotim_sdk_v1.2.jar => globes\libs\spotim_sdk_v1.2.jar
+* libs\WoorldsSDK.jar => globes\libs\WoorldsSDK.jar
+* lint.xml => globes\lint.xml
+* res\ => globes\src\main\res\
+* src\ => globes\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

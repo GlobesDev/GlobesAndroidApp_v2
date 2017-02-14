@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.tensera.sdk"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- Required to know if we are connected to WiFi -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Required to know the WiFi SSID we are connected to -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application>
+        <service android:name="net.tensera.sdk.gcm.PrefetchIntentService" />
+
+        <!--
+        TransmissionService is part of the REPORTER SDK, but defined at this level again for devkit support,
+        because our FAT AAR build process does not merge definitions from the Reporter's AndroidManifest into this one
+        -->
+        <service android:name="net.tensera.sdk.network.TransmitReportsService" />
+        <service
+            android:name="net.tensera.sdk.reports.TransmitPeriodicService"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="net.tensera.sdk.prefetching.PrefetchRetryInvokerService"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="net.tensera.sdk.config.ServiceMapUpdateService"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="net.tensera.sdk.gcm.InstanceIdRefreshService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="net.tensera.sdk.utils.UpgradeReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <!--
+                <receiver android:name="net.tensera.sdk.prefeching.UserPresentReceiver">
+                    <intent-filter>
+                        <action android:name="android.intent.action.USER_PRESENT"/>
+                    </intent-filter>
+                </receiver>
+                <service android:name="net.tensera.sdk.prefeching.UpdatePresentService" />
+        -->
+    </application>
+
+</manifest>

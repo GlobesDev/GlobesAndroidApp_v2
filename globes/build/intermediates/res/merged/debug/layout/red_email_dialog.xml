@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#5d626c"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/tvEmailTitle"        
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/red_email" 
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+    
+    <Button
+        android:id="@+id/btnEmailWrite"
+        android:text="@string/email_write"
+        android:layout_width="260dp" 
+		android:layout_height="40dp" 
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp" 
+		android:textSize="20sp"/>
+    
+    <Button
+        android:id="@+id/btnRedEmailClip"
+        android:text="@string/email_send_clip"
+        android:layout_width="260dp" 
+		android:layout_height="40dp" 
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp" 
+		android:textSize="20sp"/>
+    
+    <Button
+        android:id="@+id/btnRedEmailPic"
+        android:text="@string/email_send_pic"
+        android:layout_width="260dp" 
+		android:layout_height="40dp" 		
+        android:layout_gravity="center"	
+        android:layout_marginTop="20dp" 
+        android:textSize="20sp"/>
+    
+    <Button
+        android:id="@+id/btnCancel"
+        android:text="@string/dialog_btn_cancel"
+        android:layout_width="256dp" 
+		android:layout_height="40dp" 		
+        android:layout_gravity="center"	
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background = "@drawable/cancel_button_background">
+    </Button>
+
+</LinearLayout>

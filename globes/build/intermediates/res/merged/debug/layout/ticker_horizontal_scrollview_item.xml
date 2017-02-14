@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="3" >
+   
+
+    <TextView
+        android:id="@+id/textView_looper_scrollview_item_end_seperator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="|"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView_looper_scrollview_item_precentage_changed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:singleLine="true"
+        android:text="12%"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView_looper_scrollview_item_last"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:singleLine="true"
+        android:text="563"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView_looper_scrollview_item_name_he"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:singleLine="true"
+        android:text="NASDAQ"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

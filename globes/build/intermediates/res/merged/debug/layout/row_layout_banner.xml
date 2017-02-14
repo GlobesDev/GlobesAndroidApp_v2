@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/row_layout_banner_frame_layout_AdContainer"
+    android:layout_width="match_parent"
+        android:layout_height="50dp"
+    >
+
+    <com.google.android.gms.ads.doubleclick.PublisherAdView
+        android:id="@+id/adViewLazyAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="/43010785/globes/floating.globes.ros" />
+
+</FrameLayout>

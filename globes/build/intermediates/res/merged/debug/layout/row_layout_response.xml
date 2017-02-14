@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent" 
+				android:layout_height="fill_parent"
+				android:padding="5dip" 
+				android:textColor="#000000"
+				android:gravity="right"
+				android:background="@color/rowlayout_color">
+				
+	                
+	                <TextView android:id="@+id/textViewResponseSerialNumber"
+	                android:layout_height="wrap_content" 
+	                android:layout_width="wrap_content" 
+	                android:text="subject"
+	                android:textSize="14dp"
+	                android:layout_alignParentTop="true"
+	                android:layout_alignParentRight="true"
+	                ></TextView>
+	                
+	                <ImageView android:id="@+id/imageViewIfResponseTextExsits"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_margin="1dp"
+					android:layout_weight="1"
+					android:layout_gravity="center_vertical"
+					android:gravity="center_vertical"					
+			        android:src="@drawable/transparent"
+			        />
+			        
+	                <TextView android:id="@+id/textViewResponseSubject"
+	                android:layout_height="wrap_content" 
+	                android:layout_width="wrap_content" 
+	                android:text="50. "
+	                android:textSize="14dp"
+	                android:layout_alignParentTop="true"
+	                android:layout_toLeftOf="@id/textViewResponseSerialNumber"
+	                android:layout_toRightOf="@id/imageViewIfResponseTextExsits"
+	                
+					></TextView>
+					
+				
+					
+					 <TextView android:id="@+id/textViewResponseDate"
+	                android:layout_height="wrap_content" 
+	                android:layout_width="wrap_content"
+	                android:text="12.12.83"
+	                android:textSize="13dp"
+	                android:textColor="@color/gray"
+	                
+	                android:layout_below="@id/textViewResponseSubject"
+	                android:layout_toLeftOf="@id/textViewResponseSerialNumber"
+	                ></TextView>
+				 
+				    <TextView android:id="@+id/textViewResponseUserName"
+	                android:layout_height="wrap_content" 
+	                android:layout_width="wrap_content" 
+	                android:text="name"
+	                android:textSize="13dp"
+	                android:layout_marginRight="7dp"
+	                android:layout_below="@id/textViewResponseSubject"
+	                android:layout_toLeftOf="@id/textViewResponseDate"
+	                
+	                ></TextView>
+	                
+	            <!--     <TextView android:id="@+id/textViewResponseText"
+	                android:layout_height="wrap_content" 
+	                android:layout_width="fill_parent" 
+	                android:text="response"
+	                android:textSize="12dp"
+	                android:layout_marginTop="7dp"
+	                android:layout_below="@id/textViewResponseUserName"
+	                android:layout_alignParentBottom="true"
+	                android:layout_alignParentRight="true"
+	                ></TextView> -->
+	                
+				
+					
+</RelativeLayout>

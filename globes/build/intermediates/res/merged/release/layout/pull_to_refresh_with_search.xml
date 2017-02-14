@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative_layout_big_container_pull_to_refresh_with_search"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frame332"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/searchbar" >
+
+        <EditText
+            android:id="@+id/editTextSearchStock"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="1dp"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/buttonSearchStocks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="14dp"
+            android:background="@drawable/lupa" >
+        </ImageView>
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/frame332"
+        android:fadingEdge="none"
+        android:textSize="5sp" />
+    <!-- android:layout_weight="1" -->
+
+
+    <!-- regular adview -->
+
+    <FrameLayout
+        android:id="@+id/frame334"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true" >
+
+        <!-- this is google's example ad /6253334/dfp_example_ad -->
+        <!-- /7263/Android.article_banner -->
+
+        <com.google.android.gms.ads.doubleclick.PublisherAdView
+            android:id="@+id/adView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="/43010785/globes/floating.globes.ros" />
+    </FrameLayout>
+
+    <!-- Rich media -->
+
+    <FrameLayout
+        android:id="@+id/AdContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent" >
+
+        <tv.justad.sdk.view.JustAdView
+            android:id="@+id/justAdView_RICH_MEDIA_pull_to_refresh_with_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</RelativeLayout>

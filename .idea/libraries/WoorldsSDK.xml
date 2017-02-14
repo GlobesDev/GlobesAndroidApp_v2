@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="WoorldsSDK">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/globes/libs/WoorldsSDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

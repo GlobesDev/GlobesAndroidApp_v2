@@ -1,0 +1,779 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:2:1-501:12
+	package
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:3:11-41
+		INJECTED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:5:11-38
+		INJECTED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:2:70-116
+	android:versionCode
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:4:11-35
+		INJECTED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:8:5-75
+MERGED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:10:5-66
+MERGED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:11:5-78
+MERGED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:14:5-78
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:15:5-67
+MERGED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:16:22-65
+uses-permission#android.permission.REORDER_TASKS
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:17:5-71
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:17:22-69
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:18:5-74
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:18:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:20:5-77
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:20:22-75
+permission#il.co.globes.android.permission.C2D_MESSAGE
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:22:5-24:50
+	android:protectionLevel
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:24:13-48
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:23:13-71
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:26:5-65
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:26:22-63
+uses-permission#il.co.globes.android.permission.C2D_MESSAGE
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:27:5-82
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:27:22-80
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:29:5-81
+MERGED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:13:5-82
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:29:22-79
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:31:5-70
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:31:22-68
+application
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:34:5-499:19
+MERGED from [Globes:viewpageindicator:unspecified] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\viewpageindicator\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [Globes:google_play_services:unspecified] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\google_play_services\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [Globes:facebooksdk:unspecified] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\facebooksdk\unspecified\AndroidManifest.xml:11:5-14:19
+MERGED from [Globes:slidingmenulibrary:unspecified] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\slidingmenulibrary\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [Globes:actionbarpulltorefresh:unspecified] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\actionbarpulltorefresh\unspecified\AndroidManifest.xml:9:5-20
+MERGED from [com.github.castorflex.smoothprogressbar:library:0.4.0] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\com.github.castorflex.smoothprogressbar\library\0.4.0\AndroidManifest.xml:5:5-19
+MERGED from [Globes:actionbarsherlock:unspecified] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\actionbarsherlock\unspecified\AndroidManifest.xml:11:5-20
+MERGED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:19:5-72:19
+MERGED from [com.android.support:support-v4:21.0.0] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:38:13-45
+	android:supportsRtl
+		ADDED from [Globes:viewpageindicator:unspecified] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\viewpageindicator\unspecified\AndroidManifest.xml:14:9-35
+	android:hardwareAccelerated
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:36:13-47
+	android:debuggable
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:40:13-38
+	android:icon
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:37:13-51
+	android:allowBackup
+		ADDED from [Globes:viewpageindicator:unspecified] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\viewpageindicator\unspecified\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:39:13-44
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:35:13-71
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:41:9-43:72
+	android:value
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:43:17-70
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:42:17-62
+receiver#com.woorlds.woorldssdk.StartupReceiver
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:45:9-49:20
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:45:19-72
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:46:13-48:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:47:17-78
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:47:25-76
+service#com.woorlds.woorldssdk.WoorldsService
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:51:9-72
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:51:18-70
+meta-data#com.woorlds.ApiKey
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:55:9-57:71
+	android:value
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:57:17-69
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:56:17-50
+activity#il.co.globes.android.SplashScreen
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:59:9-108:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:64:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:62:17-49
+	android:launchMode
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:63:17-48
+	android:exported
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:61:17-40
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:65:17-81
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:60:17-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:66:13-70:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:67:17-68
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:67:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:69:17-76
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:69:27-74
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:72:13-79:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:73:17-68
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:73:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:75:17-75
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:75:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:76:17-77
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:76:27-75
+data
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:78:17-48
+	android:scheme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:78:23-46
+receiver#com.appsflyer.MultipleInstallBroadcastReceiver
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:110:9-116:20
+	android:exported
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:112:17-40
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:111:17-78
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:113:13-115:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:114:17-78
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:114:25-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:138:9-142:11
+	android:configChanges
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:140:17-126
+	tools:replace
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:141:17-54
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:139:17-69
+activity#il.co.globes.android.MainTabActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:143:9-148:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:146:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:145:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:147:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:144:17-48
+activity#il.co.globes.android.SplashArticle
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:149:9-154:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:152:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:151:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:153:17-81
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:150:17-46
+activity#il.co.globes.android.MainActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:155:9-160:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:158:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:157:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:159:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:156:17-45
+activity#il.co.globes.android.TVListActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:161:9-166:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:164:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:163:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:165:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:162:17-47
+activity#il.co.globes.android.SharesListActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:167:9-172:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:170:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:169:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:171:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:168:17-51
+activity#il.co.globes.android.CompanyActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:173:9-178:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:176:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:175:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:177:17-81
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:174:17-48
+activity#il.co.globes.android.ManagerActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:179:9-184:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:182:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:181:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:183:17-81
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:180:17-48
+activity#il.co.globes.android.Pager_test
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:185:9-190:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:188:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:187:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:189:17-81
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:186:17-43
+activity#il.co.globes.android.MarketsListActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:191:9-196:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:194:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:193:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:195:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:192:17-52
+activity#il.co.globes.android.SectionsListActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:197:9-202:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:200:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:199:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:201:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:198:17-53
+activity#il.co.globes.android.SectionListActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:203:9-208:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:206:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:205:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:207:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:204:17-52
+activity#il.co.globes.android.FinancialPortalActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:209:9-214:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:212:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:211:17-57
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:213:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:210:17-56
+activity#il.co.globes.android.DocumentActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:215:9-220:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:218:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:217:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:219:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:216:17-49
+activity#il.co.globes.android.DocumentResponsesActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:221:9-226:20
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:224:17-49
+	android:configChanges
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:223:17-52
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:225:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:222:17-58
+activity#il.co.globes.android.DocumentSearchListActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:227:9-232:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:230:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:229:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:231:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:228:17-59
+activity#il.co.globes.android.ShareActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:233:9-238:20
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:236:17-49
+	android:configChanges
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:235:17-63
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:237:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:234:17-46
+activity#il.co.globes.android.GlobesPreferences
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:239:9-244:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:242:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:241:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:243:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:240:17-50
+activity#il.co.globes.android.AboutActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:245:9-250:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:248:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:247:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:249:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:246:17-46
+activity#il.co.globes.android.PortfolioActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:251:9-256:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:254:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:253:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:255:17-81
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:252:17-50
+activity#il.co.globes.android.LoginActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:257:9-263:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:261:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:259:17-49
+	android:noHistory
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:260:17-41
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:262:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:258:17-46
+activity#il.co.globes.android.NewLoginActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:264:9-269:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:267:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:266:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:268:17-70
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:265:17-49
+activity#il.co.globes.android.TermsOfUse
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:270:9-275:20
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:273:17-49
+	android:configChanges
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:272:17-52
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:274:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:271:17-43
+activity#il.co.globes.android.AttachmentPicker
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:276:9-277:20
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:276:19-51
+activity#il.co.globes.android.NewDocumentActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:278:9-283:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:281:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:280:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:282:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:279:17-52
+activity#il.co.globes.android.SettingsActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:284:9-289:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:287:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:286:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:288:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:285:17-49
+activity#com.sekindo.ads.SekindoLastPreloaderActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:290:9-295:20
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:290:19-78
+intent-filter#android.intent.action.VIEW+android.intent.category.VIEW
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:291:13-294:29
+category#android.intent.category.VIEW
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:293:17-72
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:293:27-70
+activity#mobi.pushapps.PAActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:299:9-310:20
+	android:configChanges
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:301:17-67
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:300:17-56
+activity#mobi.pushapps.PAPopup
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:311:9-314:78
+	android:configChanges
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:313:17-67
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:314:17-76
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:312:17-53
+meta-data#PushApps_SdkKey
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:317:9-319:71
+	android:value
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:319:17-69
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:318:17-47
+meta-data#PushApps_SenderId
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:320:9-322:50
+	android:value
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:322:17-48
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:321:17-49
+meta-data#PushApps_NotificationIcon
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:324:9-326:59
+	android:resource
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:326:13-56
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:325:13-53
+receiver#mobi.pushapps.sync.PASyncConfigurationReceiver
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:328:9-334:20
+	android:enabled
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:330:17-39
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:329:17-78
+intent-filter#mobi.pushapps.sync.SYNC_CONFIGURATIONS
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:331:13-333:29
+action#mobi.pushapps.sync.SYNC_CONFIGURATIONS
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:332:17-80
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:332:25-78
+receiver#mobi.pushapps.sync.PASyncRecommendationsReceiver
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:335:9-341:20
+	android:enabled
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:337:17-39
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:336:17-80
+intent-filter#mobi.pushapps.sync.SYNC_RECOMMENDATIONS
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:338:13-340:29
+action#mobi.pushapps.sync.SYNC_RECOMMENDATIONS
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:339:17-81
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:339:25-79
+receiver#mobi.pushapps.events.PASyncEventsReceiver
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:342:9-348:20
+	android:enabled
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:344:17-39
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:343:17-73
+intent-filter#mobi.pushapps.events.SYNC_EVENTS
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:345:13-347:29
+action#mobi.pushapps.events.SYNC_EVENTS
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:346:17-74
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:346:25-72
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:349:9-357:20
+	android:exported
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:351:17-40
+	android:permission
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:352:17-77
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:350:17-70
+intent-filter#com.google.android.c2dm.intent.RECEIVE+il.co.globes.android
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:353:13-356:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:354:17-80
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:354:25-78
+category#il.co.globes.android
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:355:17-64
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:355:27-62
+receiver#net.tensera.sdk.gcm.GcmBroadcastReceiver
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:359:9-365:20
+	android:permission
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:360:19-79
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:359:19-74
+receiver#net.tensera.sdk.config.TimeChangedReceiver
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:366:9-370:20
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:366:19-76
+intent-filter#android.intent.action.TIME_SET
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:367:13-369:29
+action#android.intent.action.TIME_SET
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:368:17-73
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:368:25-70
+service#mobi.pushapps.gcm.PAGcmListenerService
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:371:9-378:19
+	android:exported
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:373:17-41
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:372:17-70
+service#mobi.pushapps.gcm.PAInstanceIDListenerService
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:379:9-385:19
+	android:exported
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:381:17-41
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:380:17-77
+intent-filter#com.google.android.gms.iid.InstanceID
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:382:13-384:29
+action#com.google.android.gms.iid.InstanceID
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:383:17-79
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:383:25-77
+service#mobi.pushapps.gcm.PARegistrationIntentService
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:386:9-389:19
+	android:exported
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:388:17-41
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:387:17-77
+activity#il.co.globes.android.fragments.TickerPreferencesFragment
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:426:9-431:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:429:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:428:17-74
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:430:17-49
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:427:17-68
+activity#il.co.globes.android.RowAdActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:432:9-437:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:435:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:434:17-62
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:436:17-70
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:433:17-46
+activity#il.co.globes.android.VideoActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:438:9-443:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:441:17-54
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:440:17-61
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:442:17-70
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:439:17-46
+activity#il.co.globes.android.MainSlidingActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:444:9-450:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:449:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:447:17-68
+	android:hardwareAccelerated
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:446:17-52
+	android:launchMode
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:448:17-48
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:445:17-52
+activity#il.co.globes.android.VideoWebViewActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:451:9-454:20
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:453:17-70
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:452:17-53
+activity#com.facebook.LoginActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:455:9-458:20
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:457:17-47
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:456:17-58
+meta-data#com.crashlytics.ApiKey
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:460:9-462:75
+	android:value
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:462:17-73
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:461:17-54
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:463:9-465:49
+	android:value
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:465:17-47
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:464:17-62
+activity#il.co.globes.android.AddRemoveShareTikAishiActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:467:9-472:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:470:17-53
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:469:17-49
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:471:17-81
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:468:17-63
+activity#il.co.globes.android.native_video_player.PlayVideoActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:473:9-479:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:477:17-54
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:475:17-49
+	android:launchMode
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:476:17-47
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:478:17-81
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:474:17-70
+activity#il.co.globes.android.ima.v3.player.PlayerImaActivity
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:480:9-486:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:484:17-54
+	android:label
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:482:17-49
+	android:launchMode
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:483:17-47
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:485:17-81
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:481:17-84
+activity#il.co.globes.android.DocumentActivity_new
+ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:494:9-498:20
+	android:screenOrientation
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:496:17-53
+	android:theme
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:497:17-81
+	android:name
+		ADDED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml:495:17-73
+uses-sdk
+INJECTED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [Globes:viewpageindicator:unspecified] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\viewpageindicator\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [Globes:google_play_services:unspecified] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\google_play_services\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [Globes:facebooksdk:unspecified] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\facebooksdk\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [Globes:slidingmenulibrary:unspecified] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\slidingmenulibrary\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [Globes:actionbarpulltorefresh:unspecified] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\actionbarpulltorefresh\unspecified\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.castorflex.smoothprogressbar:library:0.4.0] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\com.github.castorflex.smoothprogressbar\library\0.4.0\AndroidManifest.xml:3:5-72
+MERGED from [Globes:actionbarsherlock:unspecified] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\Globes\actionbarsherlock\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:21.0.0] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		INJECTED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\src\main\AndroidManifest.xml
+service#net.tensera.sdk.gcm.PrefetchIntentService
+ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:20:9-77
+	android:name
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:20:18-74
+service#net.tensera.sdk.network.TransmitReportsService
+ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:26:9-82
+	android:name
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:26:18-79
+service#net.tensera.sdk.reports.TransmitPeriodicService
+ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:27:9-34:19
+	android:exported
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:29:13-36
+	android:permission
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:30:13-93
+	android:name
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:28:13-75
+intent-filter#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:31:13-33:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:32:17-87
+	android:name
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:32:25-84
+service#net.tensera.sdk.prefetching.PrefetchRetryInvokerService
+ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:35:9-42:19
+	android:exported
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:38:13-93
+	android:name
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:36:13-83
+service#net.tensera.sdk.config.ServiceMapUpdateService
+ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:43:9-50:19
+	android:exported
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:45:13-36
+	android:permission
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:46:13-93
+	android:name
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:44:13-74
+service#net.tensera.sdk.gcm.InstanceIdRefreshService
+ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:52:13-72
+receiver#net.tensera.sdk.utils.UpgradeReceiver
+ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:59:9-63:20
+	android:name
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:59:19-71
+intent-filter#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:60:13-62:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:61:17-84
+	android:name
+		ADDED from [tensera:tenserasdk:1.100] C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\exploded-aar\tensera\tenserasdk\1.100\AndroidManifest.xml:61:25-81

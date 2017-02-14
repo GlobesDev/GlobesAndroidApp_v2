@@ -1,0 +1,1 @@
+include ':globes', ':google_play_services', ':slidingmenulibrary', ':viewpageindicator', ':facebooksdk', ':actionbarpulltorefresh', ':actionbarsherlock', ':TenseraSdk', ':TenseraReporterSdk', ':ClientServerInterface'

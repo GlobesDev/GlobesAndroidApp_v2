@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+	<LinearLayout 
+		    android:id="@+id/layoutDocumentResponsesHeader"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" 
+		    android:background="@color/rowlayout_group_color"
+		    
+		    >
+		    
+				<Button 
+				android:id="@+id/buttonAddResponse" 
+				android:layout_width="138dp" 
+				android:layout_height="39dp" 
+				android:layout_marginLeft="10dp" 
+				android:gravity="center_vertical" 
+				android:background="@color/button_add_response" 
+				android:layout_marginBottom="10dp" 
+				android:layout_marginTop="10dp" 
+				android:layout_gravity="left|center_vertical">
+				</Button>
+				
+				<FrameLayout  android:id="@+id/frameLayoutResponsesCount"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="right|center_vertical"
+			    android:orientation="vertical">
+			    
+	   				<TextView 
+	   				android:id="@+id/textViewResponsesCount"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content" 
+					android:layout_weight="2"
+					android:layout_gravity="right|center_vertical"
+					android:gravity="left"
+					android:padding="10dp" 
+					android:textSize="16dp"
+					android:textColor="@color/red"
+					android:textStyle="bold">
+					</TextView>	
+					
+					<Button android:id="@+id/buttonGoToResponses"  
+				    android:layout_width="fill_parent" 
+					android:layout_height="fill_parent"
+					android:background="@drawable/transparent"
+					></Button>			
+			</FrameLayout>
+		</LinearLayout>	
+			
+
+	<ListView 
+	android:id="@+id/listViewDocumentResponses" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:layout_weight="6"/>
+
+	<!-- <RelativeLayout
+    android:id="@+id/documentActionBarLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="65dp"
+    android:layout_weight="1"
+    android:orientation="horizontal" 
+    android:layout_gravity="bottom"
+    android:background="@drawable/panel" >
+		    
+		    <Button android:id="@+id/buttonShare"  
+		    android:layout_centerInParent="true"
+			android:background="@drawable/share"
+			android:layout_marginLeft="20dp"
+			android:layout_marginTop="7dp"
+			android:layout_marginBottom="7dp"
+			android:layout_alignParentLeft="true"
+			android:gravity="center_vertical" 
+			android:layout_width="40dp" 
+			android:layout_height="32dp"
+			android:visibility="invisible"></Button>
+						
+			<Button android:id="@+id/buttonReduceFontSize"  
+		    android:layout_centerInParent="true"
+			android:background="@drawable/reduce"
+			android:layout_marginLeft="20dp"
+			android:layout_marginTop="7dp"
+			android:layout_marginBottom="7dp"
+			android:layout_toRightOf="@id/buttonShare" 
+			android:layout_width="40dp" 
+			android:layout_height="32dp"
+			android:visibility="invisible"></Button>
+			
+			<Button android:id="@+id/buttonEnlargeFontSize"  
+		    android:layout_centerInParent="true"
+			android:background="@drawable/enlarge"
+			android:layout_marginLeft="10dp"
+			android:layout_marginTop="7dp"
+			android:layout_marginBottom="7dp"
+			android:layout_toRightOf="@id/buttonReduceFontSize" 
+			android:layout_width="40dp" 
+			android:layout_height="32dp"
+			android:visibility="invisible"></Button>
+			
+			<Button android:id="@+id/buttonGetMoreResponses"  
+		    android:layout_centerInParent="true"
+			android:background="@drawable/back"
+			android:layout_marginRight="20dp"
+			android:layout_marginLeft="10dp"
+			android:layout_marginTop="7dp"
+			android:layout_marginBottom="7dp"
+			android:layout_gravity="center_vertical" 
+			android:layout_alignParentRight="true" 
+			android:layout_width="40dp" 
+			android:layout_height="32dp"
+			></Button>
+			
+			<Button android:id="@+id/buttonBrowseForward"  
+		    android:layout_centerInParent="true"
+			android:background="@drawable/forward"
+			android:layout_marginTop="7dp"
+			android:layout_marginBottom="7dp"
+			android:layout_toLeftOf="@id/buttonBrowseBack" 
+			android:layout_width="40dp" 
+			android:layout_height="32dp"
+			android:visibility="invisible"></Button>
+		    
+	</RelativeLayout> -->
+
+</LinearLayout>
+

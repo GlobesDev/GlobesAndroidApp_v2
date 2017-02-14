@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+    <RelativeLayout
+        android:id="@+id/notification_upper_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/notification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PushApps Custom Notification"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginLeft="8dp"/>
+        <TextView
+            android:id="@+id/notification_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Happy Holidays from PushApps! This is a special gift!"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@id/notification_title"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/notification_main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@+id/notification_main_image_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+    </RelativeLayout>
+</LinearLayout>

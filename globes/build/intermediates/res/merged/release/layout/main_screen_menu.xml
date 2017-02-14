@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   
+  <item android:id="@+id/menuItemAbout"
+          android:icon="@drawable/about"
+          android:title="@string/about" />
+          
+    <item android:id="@+id/menuItemSearch"
+          android:icon="@drawable/search"
+          android:title="@string/search" />
+   
+    <item android:id="@+id/menuItemPreferences"
+          android:icon="@drawable/settings"
+          android:title="@string/preferences" />
+          
+    <item android:id="@+id/menuItemFinancialPortal"
+          android:icon="@drawable/portal"
+          android:title="@string/financial_portal" />
+    
+    <item android:id="@+id/menuItemRedEmail"
+          android:icon="@drawable/red_email"
+          android:title="@string/red_email" />
+    
+     <item android:id="@+id/menuItemTV"
+          android:icon="@drawable/tv"
+          android:title="@string/tv" />       
+</menu>

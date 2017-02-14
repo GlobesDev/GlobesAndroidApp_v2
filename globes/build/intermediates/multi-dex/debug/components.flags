@@ -1,0 +1,278 @@
+-injars 'C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\alex-it\AppData\Local\Android\Sdk\build-tools\21.1.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'C:\Users\alex-it\AndroidSatudioProjects\Globes\globes\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class il.co.globes.android.AppRegisterForPushApps {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.woorlds.woorldssdk.StartupReceiver {
+    <init>();
+}
+
+-keep class com.woorlds.woorldssdk.WoorldsService {
+    <init>();
+}
+
+-keep class il.co.globes.android.SplashScreen {
+    <init>();
+}
+
+-keep class com.appsflyer.MultipleInstallBroadcastReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.AdActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.MainTabActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.SplashArticle {
+    <init>();
+}
+
+-keep class il.co.globes.android.MainActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.TVListActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.SharesListActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.CompanyActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.ManagerActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.Pager_test {
+    <init>();
+}
+
+-keep class il.co.globes.android.MarketsListActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.SectionsListActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.SectionListActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.FinancialPortalActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.DocumentActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.DocumentResponsesActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.DocumentSearchListActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.ShareActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.GlobesPreferences {
+    <init>();
+}
+
+-keep class il.co.globes.android.AboutActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.PortfolioActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.LoginActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.NewLoginActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.TermsOfUse {
+    <init>();
+}
+
+-keep class il.co.globes.android.AttachmentPicker {
+    <init>();
+}
+
+-keep class il.co.globes.android.NewDocumentActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.SettingsActivity {
+    <init>();
+}
+
+-keep class com.sekindo.ads.SekindoLastPreloaderActivity {
+    <init>();
+}
+
+-keep class mobi.pushapps.PAActivity {
+    <init>();
+}
+
+-keep class mobi.pushapps.PAPopup {
+    <init>();
+}
+
+-keep class mobi.pushapps.sync.PASyncConfigurationReceiver {
+    <init>();
+}
+
+-keep class mobi.pushapps.sync.PASyncRecommendationsReceiver {
+    <init>();
+}
+
+-keep class mobi.pushapps.events.PASyncEventsReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.gcm.GcmReceiver {
+    <init>();
+}
+
+-keep class net.tensera.sdk.gcm.GcmBroadcastReceiver {
+    <init>();
+}
+
+-keep class net.tensera.sdk.config.TimeChangedReceiver {
+    <init>();
+}
+
+-keep class mobi.pushapps.gcm.PAGcmListenerService {
+    <init>();
+}
+
+-keep class mobi.pushapps.gcm.PAInstanceIDListenerService {
+    <init>();
+}
+
+-keep class mobi.pushapps.gcm.PARegistrationIntentService {
+    <init>();
+}
+
+-keep class il.co.globes.android.fragments.TickerPreferencesFragment {
+    <init>();
+}
+
+-keep class il.co.globes.android.RowAdActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.VideoActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.MainSlidingActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.VideoWebViewActivity {
+    <init>();
+}
+
+-keep class com.facebook.LoginActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.AddRemoveShareTikAishiActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.native_video_player.PlayVideoActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.ima.v3.player.PlayerImaActivity {
+    <init>();
+}
+
+-keep class il.co.globes.android.DocumentActivity_new {
+    <init>();
+}
+
+-keep class net.tensera.sdk.gcm.PrefetchIntentService {
+    <init>();
+}
+
+-keep class net.tensera.sdk.network.TransmitReportsService {
+    <init>();
+}
+
+-keep class net.tensera.sdk.reports.TransmitPeriodicService {
+    <init>();
+}
+
+-keep class net.tensera.sdk.prefetching.PrefetchRetryInvokerService {
+    <init>();
+}
+
+-keep class net.tensera.sdk.config.ServiceMapUpdateService {
+    <init>();
+}
+
+-keep class net.tensera.sdk.gcm.InstanceIdRefreshService {
+    <init>();
+}
+
+-keep class net.tensera.sdk.utils.UpgradeReceiver {
+    <init>();
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grey__lines_log_in" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <View
+                android:id="@+id/center_view"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="@color/grey__lines_log_in" />
+
+            <RelativeLayout
+                android:id="@+id/header_layout_left"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/center_view"
+                android:background="@color/Transparent" >
+
+                <TextView
+                    android:id="@+id/text_new_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="משתמש חדש"
+                    android:textColor="@color/grey_header_text_log_in"
+                    android:textSize="15sp" />
+
+                <View
+                    android:id="@+id/header_left_bottom_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/grey__lines_log_in" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/header_layout_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignLeft="@+id/center_view"
+                android:layout_alignParentRight="true"
+                android:background="@color/Transparent" >
+
+                <View
+                    android:id="@+id/header_right_bottom_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/grey__lines_log_in" />
+
+                <TextView
+                    android:id="@+id/text_existing_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="משתמש רשום"
+                    android:textColor="@color/Black"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_existing_User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerLayout"
+        android:layout_margin="16dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editText_mail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext_add_comment_bg"
+            android:gravity="right|center"
+            android:hint="כתובת מייל"
+            android:inputType="textEmailAddress"
+            android:paddingRight="6dp"
+            android:textColorHint="@color/grey__hint_log_in" />
+
+        <EditText
+            android:id="@+id/editText_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edittext_add_comment_bg"
+            android:gravity="right|center"
+            android:hint="סיסמה"
+            android:inputType="textPassword"
+            android:paddingRight="6dp"
+            android:textColorHint="@color/grey__hint_log_in" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_remember_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="זכור אותי"
+                android:textColor="@color/grey__lines_log_in" />
+
+            <CheckBox
+                android:id="@+id/check_box_remember_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview_connect"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/Red"
+            android:gravity="center"
+            android:text="התחבר"
+            android:textColor="@color/White"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_new_User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerLayout"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/editText__new_user_mail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext_add_comment_bg"
+            android:gravity="right|center"
+            android:hint="כתובת מייל"
+            android:inputType="textWebEmailAddress"
+            android:paddingRight="6dp"
+            android:textColorHint="@color/grey__hint_log_in" />
+
+        <EditText
+            android:id="@+id/editText__new_user_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_add_comment_bg"
+            android:gravity="right|center"
+            android:hint="שם משתמש"
+            android:paddingRight="6dp"
+            android:textColorHint="@color/grey__hint_log_in" />
+
+        <EditText
+            android:id="@+id/editText__new_user_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_add_comment_bg"
+            android:gravity="right|center"
+            android:hint="סיסמה"
+            android:inputType="textPassword"
+            android:paddingRight="6dp"
+            android:textColorHint="@color/grey__hint_log_in" />
+
+        <EditText
+            android:id="@+id/editText__new_user__comfirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_add_comment_bg"
+            android:gravity="right|center"
+            android:hint="אימות סיסמה"
+            android:inputType="textPassword"
+            android:paddingRight="6dp"
+            android:textColorHint="@color/grey__hint_log_in" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_term_of_use"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:textColor="@color/grey__lines_log_in" />
+
+            <TextView
+                android:id="@+id/tvAcceptTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="center_vertical|right" />
+
+            <CheckBox
+                android:id="@+id/check_box_accept_term_of_use"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview_connect_new_user"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/Red"
+            android:gravity="center"
+            android:text="התחבר"
+            android:textColor="@color/White"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textview_blabla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/Black"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

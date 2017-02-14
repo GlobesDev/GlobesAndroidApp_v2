@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/test_ll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White"
+    android:orientation="horizontal" >
+<!-- 
+    <ImageView
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@drawable/btn_tikishi_search_off" /> -->
+
+    <TextView
+        android:id="@+id/textViewShareNameInHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="Test"
+        android:textColor="#2E81B8"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@drawable/btn_tikishi_back_off" />
+
+</LinearLayout>

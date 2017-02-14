@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_layout_big_container_pull_to_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- ads:adUnitId="/7263/Android.320.50.portal" -->
+
+    <RelativeLayout
+        android:id="@+id/frameAdViewContainer_Pull_to_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:visibility="gone" >
+
+        <!--<com.google.android.gms.ads.doubleclick.PublisherAdView-->
+            <!--android:id="@+id/adView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--ads:adSize="BANNER"-->
+            <!--ads:adUnitId="/7263/Android.462_100"-->
+            <!--android:visibility="gone" >-->
+        <!--</com.google.android.gms.ads.doubleclick.PublisherAdView>-->
+    </RelativeLayout>
+
+    <il.co.globes.android.swipeListView.SwipeListView
+        xmlns:swipe="http://schemas.android.com/apk/res-auto"
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/White"
+        android:divider="@color/Transparent"
+        android:dividerHeight="0dp"
+        swipe:swipeBackView="@+id/back"
+        swipe:swipeCloseAllItemsWhenMoveList="true"
+        swipe:swipeFrontView="@+id/front"
+        swipe:swipeMode="right"
+        swipe:swipeOffsetRight="50dp" />
+
+    <!--
+    <LinearLayout
+        android:id="@+id/linearLayout_Ticker_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="1dp"
+        android:background="@color/lighter_gray"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <HorizontalScrollView
+            android:id="@+id/horiztonal_scrollview_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/pink"
+            android:fadingEdge="none" >
+
+            <LinearLayout
+                android:id="@+id/horiztonal_outer_layout_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="5dip"
+                android:paddingTop="5dip" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageButton
+            android:id="@+id/Button_open_looper_preferences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:layout_weight="0"
+            android:background="@color/pink"
+            android:padding="3dp"
+            android:paddingLeft="5dp"
+            android:scaleType="center"
+            android:src="@drawable/edit_icon" />
+    </LinearLayout>
+    -->
+
+
+    <!-- Adview regular -->
+
+
+    <!-- Rich Media -->
+
+    <FrameLayout
+        android:id="@+id/AdContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:visibility="gone" >
+
+        <tv.justad.sdk.view.JustAdView
+            android:id="@+id/justAdView_RICH_MEDIA_pull_to_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\layout-xhdpi-v4\\layout_document_portrait.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\layout-xhdpi\\layout_document_portrait.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\layout-xhdpi-v4\\gallery_object_layout.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\layout-xhdpi\\gallery_object_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\layout-xhdpi-v4\\layout_document_landscape.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\layout-xhdpi\\layout_document_landscape.xml"
+    }
+]

@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="none" >
+
+    <ScrollView
+        android:id="@+id/documentScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="6"
+        android:fadingEdge="none" >
+
+        <TextView
+            android:id="@+id/textViewAbout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textSize="16dp" >
+        </TextView>
+    </ScrollView>
+
+</LinearLayout>

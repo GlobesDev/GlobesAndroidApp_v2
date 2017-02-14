@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClientServerInterface/ClientServerInterface.iml" filepath="$PROJECT_DIR$/ClientServerInterface/ClientServerInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Globes.iml" filepath="$PROJECT_DIR$/Globes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TenseraReporterSdk/TenseraReporterSdk.iml" filepath="$PROJECT_DIR$/TenseraReporterSdk/TenseraReporterSdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TenseraSdk/TenseraSdk.iml" filepath="$PROJECT_DIR$/TenseraSdk/TenseraSdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/actionbarpulltorefresh/actionbarpulltorefresh.iml" filepath="$PROJECT_DIR$/actionbarpulltorefresh/actionbarpulltorefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/actionbarsherlock/actionbarsherlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebooksdk/facebooksdk.iml" filepath="$PROJECT_DIR$/facebooksdk/facebooksdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/globes/globes.iml" filepath="$PROJECT_DIR$/globes/globes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/google_play_services/google_play_services.iml" filepath="$PROJECT_DIR$/google_play_services/google_play_services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingmenulibrary/slidingmenulibrary.iml" filepath="$PROJECT_DIR$/slidingmenulibrary/slidingmenulibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpageindicator/viewpageindicator.iml" filepath="$PROJECT_DIR$/viewpageindicator/viewpageindicator.iml" />
+    </modules>
+  </component>
+</project>

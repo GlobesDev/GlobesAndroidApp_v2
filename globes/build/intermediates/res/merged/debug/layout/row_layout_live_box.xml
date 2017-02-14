@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp" >
+    <HorizontalScrollView
+        android:id="@+id/back"
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/front"
+        android:layout_alignTop="@+id/front"
+        android:layout_marginRight="50dp"
+        android:fillViewport="true"
+        android:tag="back" >
+
+        <LinearLayout
+            android:id="@+id/contenair_tagiot"
+           android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:id="@+id/front"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top"
+        android:background="@color/White"
+        android:orientation="vertical"
+        android:tag="front" >
+
+       <WebView 
+        android:id="@+id/webView_live_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    
+
+</RelativeLayout>

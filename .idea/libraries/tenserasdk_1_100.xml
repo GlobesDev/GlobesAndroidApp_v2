@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="tenserasdk-1.100">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/globes/build/intermediates/exploded-aar/tensera/tenserasdk/1.100/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/globes/build/intermediates/exploded-aar/tensera/tenserasdk/1.100/res" />
+      <root url="jar://$PROJECT_DIR$/globes/build/intermediates/exploded-aar/tensera/tenserasdk/1.100/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

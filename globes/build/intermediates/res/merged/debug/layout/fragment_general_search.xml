@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/right_menu_list_background" >
+
+    <ImageView
+        android:id="@+id/imageView_general_search_fragment_close_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/dialog_btn_cancel"
+        android:padding="16dp"
+        android:src="@drawable/ic_action_cancel_search" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView_general_search_fragment_close_search"
+        android:background="@color/right_menu_list_background"
+        android:divider="@drawable/separator" >
+    </ListView>
+
+    <ProgressBar
+        android:id="@+id/progressBar_general_search_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+
+</RelativeLayout>

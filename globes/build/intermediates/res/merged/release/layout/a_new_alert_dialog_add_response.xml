@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    >
+  
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/White"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/Img_close_add_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/x_add_comment" />
+
+        <TextView
+            android:id="@+id/text_add_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="הוספת תגובה"
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextResponseUserName"
+            android:layout_width="fill_parent" 
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edittext_add_comment_bg"
+            android:gravity="center|right|fill_horizontal"
+            android:hint="@string/ResponseUserName"
+            android:paddingRight="6dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColorHint="@color/grey__hint_log_in" />
+
+        <EditText
+            android:id="@+id/editTextResponseSubject"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_add_comment_bg"
+            android:gravity="center|right|fill_horizontal"
+            android:hint="@string/ResponseSubject"
+            android:paddingRight="6dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColorHint="@color/grey__hint_log_in" />
+
+        <EditText
+            android:id="@+id/editTextResponseText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_add_comment_bg"
+            android:gravity="fill_horizontal|right"
+            android:hint="תגובה"
+            android:lines="5"
+            android:paddingRight="6dp"
+            android:paddingTop="16dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColorHint="@color/grey__hint_log_in" />
+
+        <TextView
+            android:id="@+id/text_fill_in_all_fields"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:text="אנא מלא את כל השדות"
+            android:textColor="@color/grey_instrument_text"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textview_add_comment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/Red"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="פרסם תגובה"
+            android:textColor="@color/White"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

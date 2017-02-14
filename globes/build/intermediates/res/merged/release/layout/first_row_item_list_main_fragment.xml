@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView_main_list_article"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/globes_title_backgroud" />
+
+    <RelativeLayout
+        android:id="@+id/globes_logo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_main_list_article"
+        android:layout_marginTop="6dp" >
+
+        <ImageView
+            android:id="@+id/globes_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/greystar_button_pressed" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_below="@+id/globes_logo"
+            android:layout_marginTop="6dp"
+            android:background="@android:color/black" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView_content_main_list_article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/globes_logo_layout"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="right"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

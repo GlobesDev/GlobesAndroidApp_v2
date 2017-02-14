@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="32dp" >
+
+    <Button
+        android:id="@+id/btnWriteUs"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/pink_globes"
+        android:text="@string/write_us"
+        android:textColor="@color/Black"
+        android:textSize="25.5sp" />
+
+    <Button
+        android:id="@+id/btnSendPicture"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:background="@color/pink_globes"
+        android:text="@string/send_picture"
+        android:textColor="@color/Black"
+        android:textSize="25.5sp" />
+
+    <Button
+        android:id="@+id/btnSendVideo"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:background="@color/pink_globes"
+        android:text="@string/send_video"
+        android:textColor="@color/Black"
+        android:textSize="25.5sp" />
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.google.android.gms.ads.doubleclick.PublisherAdView
+        android:id="@+id/dfpAdView_pull_to_refresh_with_header_optional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="/7263/Android.320.50.portal"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/container_header_lyt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/row_layout_group" />
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fadingEdge="none" />
+
+    <RelativeLayout
+        android:id="@+id/frameAdViewContainer_Pull_to_refresh"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom" >
+
+        <!-- this is google's example ad /6253334/dfp_example_ad -->
+        <!-- old code /7263/Android.article_banner -->
+        <!-- new code /7263/Android.462_100 -->
+        <!-- /7263/IPhone.middle_Banner -->
+        <!-- /7263/Android.banner.psagot -->
+
+        <com.google.android.gms.ads.doubleclick.PublisherAdView
+            android:id="@+id/adViewSectionListActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_alignParentBottom="true"
+            ads:adUnitId="/43010785/globes/floating.globes.ros" />
+
+        <FrameLayout
+            android:id="@+id/AdContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" >
+
+            <tv.justad.sdk.view.JustAdView
+                android:id="@+id/justAdView_RICH_MEDIA_pull_to_refresh_with_header"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/smallBanner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:visibility="gone" >
+        </ImageView>
+    </RelativeLayout>
+
+</LinearLayout>

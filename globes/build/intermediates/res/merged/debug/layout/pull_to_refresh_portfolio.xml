@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@color/White"
+    android:orientation="vertical" >
+
+    <!--
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/globes_title_backgroud"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        android:padding="2dp" >
+
+        <Button
+            android:id="@+id/buttonlogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="7dp"
+            android:focusable="false"
+            android:gravity="center_vertical|right" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/portfolio"
+            android:textColor="@color/red"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+    -->
+
+    <!--<com.google.android.gms.ads.doubleclick.PublisherAdView-->
+        <!--android:id="@+id/dfpAdView_pull_to_refresh_portfolio_optional"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--ads:adSize="BANNER"-->
+        <!--ads:adUnitId="/7263/Android.320.50.portal"-->
+        <!--android:visibility="gone" />-->
+
+    <!-- ads:adUnitId="/7263/Android.320.50.portal" -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="25"
+                android:gravity="center"
+                android:text="שינוי ב% מהוספה לתיק"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="25"
+                android:gravity="center"
+                android:text="שינוי יומי ב%"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right|center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="25"
+                android:gravity="center"
+                android:text="שער אחרון"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right|center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="25"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="5dp"
+                android:text="שם נייר ערך"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <il.co.globes.android.swipeListView.SwipeListView
+        xmlns:swipe="http://schemas.android.com/apk/res-auto"
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/White"
+        android:divider="@color/Gray"
+        android:dividerHeight="1dp"
+        swipe:swipeBackView="@+id/back"
+        swipe:swipeCloseAllItemsWhenMoveList="true"
+        swipe:swipeFrontView="@+id/front"
+        swipe:swipeMode="right"
+        swipe:swipeOffsetRight="50dp" />
+
+    <!--
+         <ListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:textSize="5sp" />
+    -->
+
+    <RelativeLayout
+        android:id="@+id/frameAdViewContainer_Pull_to_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom" >
+
+        <!-- this is google's example ad /6253334/dfp_example_ad -->
+        <!-- old code /7263/Android.article_banner -->
+        <!-- new code /7263/Android.462_100 -->
+        <!-- /7263/IPhone.middle_Banner -->
+        <!-- /7263/Android.banner.psagot -->
+
+        <!--<com.google.android.gms.ads.doubleclick.PublisherAdView-->
+            <!--android:id="@+id/adViewPortfolioActivity"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--ads:adSize="BANNER"-->
+            <!--ads:adUnitId="/7263/Android.462_100" />-->
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/AdContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent" >
+
+        <tv.justad.sdk.view.JustAdView
+            android:id="@+id/justAdView_RICH_MEDIA_pull_to_refresh_portfolio"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

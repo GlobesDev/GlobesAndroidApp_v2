@@ -1,0 +1,7 @@
+#Sun Feb 05 15:35:41 IST 2017
+base.0=C\:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes2.dex
+base.1=C\:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
+file.0=C\:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textView_looper_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:gravity="right|center_vertical"
+        android:paddingTop="13dp"
+        android:text="test"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton_remove_item_from_looper_about_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:background="@drawable/selector_delete_looper_item" 
+        android:visibility="gone"/>
+
+</RelativeLayout>

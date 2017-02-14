@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RowAdActivity" >
+
+    <RelativeLayout
+        android:id="@+id/realtiveLayout_RowAdActivity_title_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/globes_title_backgroud"
+        android:padding="5dp" >
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_width="106dp"
+            android:layout_height="27dp"
+            android:background="@drawable/logo" />
+
+        <Button
+            android:id="@+id/Button_close_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/closed_button1_640_960" >
+        </Button>
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/webView_katava_pirsumit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/realtiveLayout_RowAdActivity_title_button_container"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scrollbars="none"
+        android:background="@color/black" />
+
+</RelativeLayout>
