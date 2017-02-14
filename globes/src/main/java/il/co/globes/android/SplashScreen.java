@@ -485,7 +485,7 @@ public class SplashScreen extends Activity implements WallaAdvTaskCompleted {
                 errorReason = "Network Error";
                 break;
             case AdRequest.ERROR_CODE_NO_FILL:
-                errorReason = "No fill!";
+                errorReason = "No fill!!!";
                 break;
         }
         return errorReason;
