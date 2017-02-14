@@ -422,7 +422,6 @@ public class SplashScreen extends Activity implements WallaAdvTaskCompleted {
             }
 
             public void onAdFailedToLoad(int errorCode) {
-
                 /**
                  * Log the Ad Error and close the Activity move to
                  * MainTabActivity
