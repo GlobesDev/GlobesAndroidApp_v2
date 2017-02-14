@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/globes_title_backgroud"
+    
+     >
+
+    <RelativeLayout
+        android:id="@+id/realtiveLayout_edit_buttton_container"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/globes_title_backgroud" 
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/button_edit_end_edit_looper_items_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/selector_button_edit_looper_items" >
+        </Button>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView_looper_items_looper_preferences_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@color/transparent"
+        android:layout_below="@+id/realtiveLayout_edit_buttton_container" 
+        >
+    </ListView>
+
+</RelativeLayout>

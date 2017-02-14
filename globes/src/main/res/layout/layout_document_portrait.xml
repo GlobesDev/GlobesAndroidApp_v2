@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/il.co.globes.android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_biggest_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relative_layout_rest_of_doc_except_Ad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" >
+
+            <!-- title_globes_test visibility changed to invisible -->
+
+
+            <!-- Custom title for splash -->
+
+            <LinearLayout
+                android:id="@+id/title_globes_test"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/globes_title_backgroud"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:layout_width="106dp"
+                    android:layout_height="27dp"
+                    android:background="@drawable/logo" />
+            </LinearLayout>
+            <!-- END Custom title for splash -->
+
+            <RelativeLayout
+                android:id="@+id/mainLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/title_globes_test"
+                android:fadingEdge="none"
+                android:orientation="vertical" >
+
+                <!-- linearLayoutBottomBarAndBanner visibility changed to invisible -->
+
+
+                <!-- bottom bar and Ad -->
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutBottomBarAndBanner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
+                    android:orientation="vertical"
+                    android:visibility="visible" >
+
+                    <RelativeLayout
+                        android:id="@+id/documentActionBarLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/panel"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/buttonShare"
+                            android:layout_width="40dp"
+                            android:layout_height="32dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginBottom="7dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="7dp"
+                            android:background="@color/button_share"
+                            android:gravity="center_vertical" />
+
+                        <Button
+                            android:id="@+id/buttonReduceFontSize"
+                            android:layout_width="40dp"
+                            android:layout_height="32dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginBottom="7dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="7dp"
+                            android:layout_toRightOf="@id/buttonShare"
+                            android:background="@color/button_reduce" />
+
+                        <Button
+                            android:id="@+id/buttonEnlargeFontSize"
+                            android:layout_width="40dp"
+                            android:layout_height="32dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginBottom="7dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="7dp"
+                            android:layout_toRightOf="@id/buttonReduceFontSize"
+                            android:background="@color/button_enlarge" />
+
+                        <Button
+                            android:id="@+id/buttonBrowseBack"
+                            android:layout_width="40dp"
+                            android:layout_height="32dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="7dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="7dp"
+                            android:background="@color/button_backward" />
+
+                        <Button
+                            android:id="@+id/buttonBrowseForward"
+                            android:layout_width="40dp"
+                            android:layout_height="32dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginBottom="7dp"
+                            android:layout_marginTop="7dp"
+                            android:layout_toLeftOf="@id/buttonBrowseBack"
+                            android:background="@color/button_forward" />
+                    </RelativeLayout>
+
+                    <!-- Regular Adview -->
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom" >
+
+                        <!-- this is google's example ad /6253334/dfp_example_ad -->
+                        <!-- old code /7263/Android.article_banner -->
+                        <!-- new code /7263/Android.462_100 -->
+                        <!-- /7263/IPhone.middle_Banner -->
+                        <!-- /7263/Android.banner.psagot -->
+
+                        <com.google.android.gms.ads.doubleclick.PublisherAdView
+                            android:id="@+id/adView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            ads:adSize="BANNER"
+                            ads:adUnitId="/43010785/globes/king//slider.globes.ros"
+                            android:background="@color/White"
+                            android:gravity="center"
+                            android:visibility="gone" >
+                        </com.google.android.gms.ads.doubleclick.PublisherAdView>
+
+                    </FrameLayout>
+                </LinearLayout>
+                <!-- End bottom bar and Ad -->
+
+                <ScrollView
+                    android:id="@+id/documentScrollView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_above="@id/linearLayoutBottomBarAndBanner"
+                    android:fadingEdge="none" >
+
+                    <!-- android:scrollbars="vertical" -->
+                    <!-- android:background="#FFFFFFFF" -->
+                    <!-- #FFFFFFFF -->
+
+                    <RelativeLayout
+                        android:id="@+id/documentMainLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFFFF"
+                        android:padding="1dip"
+                        android:textColor="#000000" >
+
+                        <WebView
+                            android:id="@+id/textViewDocumentTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#FFFFFFFF"
+                            android:gravity="right"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:id="@+id/view_dummy"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.1dp"
+                            android:layout_below="@+id/modified_plus_documentWriter_container"
+                            android:background="@color/transparent" />
+
+                        <RelativeLayout
+                            android:id="@+id/gallery_and_regularImage_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view_dummy"
+                            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                            android:layout_marginRight="@dimen/activity_horizontal_margin" >
+
+                            <android.support.v4.view.ViewPager
+                                android:id="@+id/viewPager"
+                                android:layout_width="wrap_content"
+                                android:layout_height="170dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="8dp"
+                                android:visibility="gone" >
+                            </android.support.v4.view.ViewPager>
+
+                            <com.viewpagerindicator.CirclePageIndicator
+                                android:id="@+id/titles"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/viewPager"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginTop="3dp"
+                                android:paddingTop="1dp"
+                                android:visibility="gone"
+                                app:fillColor="@color/red"
+                                app:strokeColor="@color/gray" />
+
+                            <RelativeLayout
+                                android:id="@+id/regular_image_container"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" >
+
+                                <FrameLayout
+                                    android:id="@+id/frameLayoutDocumentVideo"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:background="@color/pink"
+                                    android:visibility="gone" >
+
+                                    <ImageView
+                                        android:id="@+id/imageViewDocumentVideo"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:adjustViewBounds="true"
+                                        android:scaleType="center" />
+
+                                    <Button
+                                        android:id="@+id/buttonPlayDocumentVideo"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:background="@color/button_play"
+                                        android:visibility="gone" />
+                                </FrameLayout>
+                            </RelativeLayout>
+
+                            <ImageView
+                                android:id="@+id/imageOpnion"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerInParent="true"
+                                android:layout_gravity="center"
+                                android:scaleType="centerInside"
+                                android:visibility="gone" />
+
+                            <View
+                                android:id="@+id/view_dummy2"
+                                android:layout_width="match_parent"
+                                android:layout_height="0.1dp"
+                                android:layout_alignParentBottom="true" />
+                        </RelativeLayout>
+
+                        <!-- The image photographer -->
+
+                        <TextView
+                            android:id="@+id/textViewDocumentImageAuthor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="5dp"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                        <RelativeLayout
+                            android:id="@+id/modified_plus_documentWriter_container"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textViewDocumentTitle"
+                            android:layout_marginTop="15dp" >
+
+                            <TextView
+                                android:id="@+id/textViewDocumentModifiedOn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginRight="5dp"
+                                android:textColor="@color/gray"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/textViewDocumentWriter"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@+id/textViewDocumentModifiedOn"
+                                android:layout_marginRight="5dp"
+                                android:layout_toLeftOf="@+id/textViewDocumentModifiedOn"
+                                android:gravity="right"
+                                android:textSize="12sp" />
+                        </RelativeLayout>
+
+                     
+            <il.co.globes.android.objects.CustomWebView
+                android:id="@+id/webView_live_box"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/modified_plus_documentWriter_container" />
+
+            <il.co.globes.android.objects.CustomWebView
+                android:id="@+id/textViewDocumentSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@+id/webView_live_box"
+                android:layout_marginBottom="-3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+                <WebView
+                            android:id="@+id/textViewDocumentText"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textViewDocumentSubTitle"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:id="@+id/layoutDocumentResponsesHeader"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_below="@id/textViewDocumentText"
+                            android:background="@color/rowlayout_group_color"
+                            android:clickable="true"
+                            android:orientation="horizontal"
+                            android:visibility="visible" >
+
+                            <Button
+                                android:id="@+id/buttonAddResponse"
+                                android:layout_width="138dp"
+                                android:layout_height="39dp"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@color/button_add_response"
+                                android:gravity="center_vertical" />
+
+                            <FrameLayout
+                                android:id="@+id/frameLayoutResponsesCount"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="right|center_vertical"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/textViewResponsesCount"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="right|center_vertical"
+                                    android:layout_weight="2"
+                                    android:gravity="left"
+                                    android:padding="10dp"
+                                    android:textColor="@color/red"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+                            </FrameLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </ScrollView>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!-- Ad splash container -->
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout_splashArticle_container_test"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:visibility="visible" >
+        </RelativeLayout>
+
+        <!-- Rich Media DFP container -->
+
+        <FrameLayout
+            android:id="@+id/rich_media_container_document_portrait"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

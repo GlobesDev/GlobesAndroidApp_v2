@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/grey_rate" />
+
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewPrecentageChangeInHeader"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="left"
+                    android:text="sdsds"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewLastPrice"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="2dp"
+                    android:gravity="left"
+                    android:text="dfdfdfd"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewNameOfShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/fp_iconup_off"
+                android:gravity="center|left"
+                android:padding="5dp"
+                android:text="dsgsd"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageViewGraph"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp" >
+
+            <TextView
+                android:id="@+id/textViewShareNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="right"
+                android:layout_weight="2"
+                android:text="dfdtestdfdf"
+                android:textColor="#808080"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textViewTrueForDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_weight="2"
+                android:gravity="left"
+                android:text="dfddfdf"
+                android:textColor="#808080"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_shivoui_yomi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp" >
+
+                    <TextView
+                        android:id="@+id/textView_shivoui_yomi_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView_shivoui_yomi_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/textView_shivoui_yomi_value"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:text="שווי שוק"
+                        android:textColor="@color/Black" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_shivoui_tmoura"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/rl_shivoui_yomi"
+                    android:layout_below="@+id/rl_shivoui_yomi"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="6dp"
+                    android:textColor="@color/Black" >
+
+                    <TextView
+                        android:id="@+id/textView_nefar_mishar_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView_tmoura_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/textView_nefar_mishar_value"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:text="תמורה"
+                        android:textColor="@color/Black" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/netoune_tchoua"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/rl_shivoui_yomi"
+                    android:layout_below="@+id/rl_shivoui_tmoura"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="6dp"
+                    android:gravity="right"
+                    android:text="נתוני תשואה"
+                    android:textColor="@color/Black" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_shvouit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/rl_shivoui_yomi"
+                    android:layout_below="@+id/netoune_tchoua"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="6dp" >
+
+                    <TextView
+                        android:id="@+id/textView_shvouit_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView_shvouit_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/textView_shvouit_value"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:text="שבועית"
+                        android:textColor="@color/Black" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_hodeshit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/rl_shivoui_yomi"
+                    android:layout_below="@+id/rl_shvouit"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="6dp" >
+
+                    <TextView
+                        android:id="@+id/textView_hodshit_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView_hodshit_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/textView_hodshit_value"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:text="חודשית"
+                        android:textColor="@color/Black" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_12hodashim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/rl_shivoui_yomi"
+                    android:layout_below="@+id/rl_hodeshit"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="6dp" >
+
+                    <TextView
+                        android:id="@+id/textView_12hodashim_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView_12hodashim_Name"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/textView_12hodashim_value"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:text="12 חודשים"
+                        android:textColor="@color/Black" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_shar_yatsig"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp" >
+
+                    <TextView
+                        android:id="@+id/textView_shar_yatsig_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="right"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView_shar_yatsig_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/textView_shar_yatsig_value"
+                        android:layout_gravity="right"
+                        android:text="שער יציג"
+                        android:textColor="@color/Black" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_shinoui_bank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/rl_shar_yatsig"
+                    android:layout_below="@+id/rl_shar_yatsig"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="6dp" >
+
+                    <TextView
+                        android:id="@+id/textView_shinoui_bank_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="right"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView_shinoui_bank_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/textView_shinoui_bank_value"
+                        android:layout_gravity="right"
+                        android:text="שינוי בנק&apos;"
+                        android:textColor="@color/Black" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_shaar_petiha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/rl_shar_yatsig"
+                    android:layout_below="@+id/rl_shinoui_bank"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="6dp" >
+
+                    <TextView
+                        android:id="@+id/textView_shaar_petiha_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="right"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView_shaar_petiha_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/textView_shaar_petiha_value"
+                        android:layout_gravity="right"
+                        android:text="שער פתיחה"
+                        android:textColor="@color/Black" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_nefar_mishar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/rl_shar_yatsig"
+                    android:layout_below="@+id/rl_shaar_petiha"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="6dp" >
+
+                    <TextView
+                        android:id="@+id/textView_tmoura_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="right"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView_nefar_mishar_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/textView_tmoura_value"
+                        android:layout_gravity="right"
+                        android:text="נפח מסחר"
+                        android:textColor="@color/Black" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_yomi_gavoa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/rl_shar_yatsig"
+                    android:layout_below="@+id/rl_nefar_mishar"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="6dp" >
+
+                    <TextView
+                        android:id="@+id/textView_yomi_gavoa_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="right"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView_yomi_gavoa_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/textView_yomi_gavoa_value"
+                        android:layout_gravity="right"
+                        android:text="יומי גבוה"
+                        android:textColor="@color/Black" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_yomi_namour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/rl_shar_yatsig"
+                    android:layout_below="@+id/rl_yomi_gavoa"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="6dp" >
+
+                    <TextView
+                        android:id="@+id/textView_yomi_namour_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="right"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView_yomi_namour_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/textView_yomi_namour_value"
+                        android:layout_gravity="right"
+                        android:text="יומי נמוך"
+                        android:textColor="@color/Black" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerLayout"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:id="@+id/layout_face_book_post_with_intent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_tikishi_fb_off" />
+
+            <TextView
+                android:id="@+id/textView_face_book_post_post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="right"
+                android:layout_marginTop="32dp"
+                android:gravity="center_horizontal"
+                android:text="שתף" />
+
+            <TextView
+                android:id="@+id/textView_face_book_post_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_face_book_post_post"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="right"
+                android:gravity="center_horizontal"
+                android:paddingBottom="2dp"
+                android:text="" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:id="@+id/layout_add_or_remove_from_ticker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_tikishi_ticker_off" />
+
+            <TextView
+                android:id="@+id/textView_add_or_remove_from_ticker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="right"
+                android:layout_marginTop="24dp"
+                android:gravity="center_horizontal"
+                android:text="הוסף/חסר" />
+
+            <TextView
+                android:id="@+id/textView_ticker_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_add_or_remove_from_ticker"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="right"
+                android:gravity="center_horizontal"
+                android:paddingBottom="2dp"
+                android:text="מטיקר" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:id="@+id/layout_add_to_portfolio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_tikishi_portfolio_off" />
+
+            <TextView
+                android:id="@+id/textView__add_to_portfolio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="right"
+                android:layout_marginTop="24dp"
+                android:gravity="center_horizontal"
+                android:text="הוסף" />
+
+            <TextView
+                android:id="@+id/textView_portfolio_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView__add_to_portfolio"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="right"
+                android:gravity="center_horizontal"
+                android:paddingBottom="2dp"
+                android:text="לתיק" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:id="@+id/layout_refresh_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_tikishi_renew_off" />
+
+            <TextView
+                android:id="@+id/textView__refresh_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="right"
+                android:layout_marginTop="24dp"
+                android:gravity="center_horizontal"
+                android:text="לעדכן" />
+
+            <TextView
+                android:id="@+id/textView_refresh_data_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView__refresh_data"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="right"
+                android:gravity="center_horizontal"
+                android:paddingBottom="2dp"
+                android:text="נתונים" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_tikishi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttons_layout"
+        android:layout_alignRight="@+id/buttons_layout"
+        android:layout_below="@+id/buttons_layout"
+        android:layout_gravity="right"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/btn_tikishi_off"
+        android:gravity="center"
+        android:text="תיק אישי"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/ad_ajillion_below_tikishi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/textView_tikishi"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" >
+
+    </RelativeLayout>
+
+</RelativeLayout>

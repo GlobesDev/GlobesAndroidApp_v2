@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Theme.Sherlock.Light">
+        <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
+        <item name="ptrHeaderStyle">@style/Widget.Custom.PtrHeader</item>
+        <item name="vpiCirclePageIndicatorStyle">@style/myCirclePageIndicator</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="background">@color/transparent</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="myCirclePageIndicator" parent="Widget.CirclePageIndicator"/>
+
+    <style name="Widget.CirclePageIndicator" parent="android:Widget"/>
+
+    <!--
+  ptrHeaderStyle above refers to this style which contains all of the
+  DefaultHeaderTransformer customization values. The name and parent
+  can be anything, but only the attributes defined in 
+  library/res/attrs.xml are actually read in. 
+
+    -->
+
+    <style name="Widget.Custom.PtrHeader" parent="android:Widget">
+
+        <!-- The background of the header view -->
+        <item name="ptrHeaderBackground">@color/Transparent</item>
+
+        <!-- TextAppearance of the header view's title text -->
+
+
+        <!-- Color to tint the progress bar -->
+         <item name="ptrProgressBarColor">@color/Red</item>
+
+
+        <!-- The strings to be displayed at the various states -->
+        <item name="ptrPullText">@string/ptr_pull_text</item>
+        <item name="ptrRefreshingText">@string/ptr_RefreshingText</item>
+        <item name="ptrReleaseText">@string/ptr_ReleaseText</item>
+    </style>
+
+</resources>

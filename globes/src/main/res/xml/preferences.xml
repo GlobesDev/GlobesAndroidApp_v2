@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkboxPref"
+            android:summary="@string/summaryFlipAlignment"
+            android:title="@string/checkBoxFlipAlignment" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="mediaPlayerPref"
+            android:summary="@string/summaryMediaPlayer"
+            android:title="@string/checkBoxMediaPlayer" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="notificationsPref"
+            android:summary="@string/summaryNotifications"
+            android:title="@string/checkBoxNotifications" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="notificationSoundPref"
+            android:summary="@string/summaryNotificationSound"
+            android:title="@string/checkBoxNotificationSound" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

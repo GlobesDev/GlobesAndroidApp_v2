@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/il.co.globes.android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_rest_of_doc_except_Ad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:id="@+id/documentActionBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:gravity="right"
+            android:paddingTop="6dp" >
+
+            <TextView
+                android:id="@+id/textView_comments_actionBar_documentN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_comment_document"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:text=""
+                android:textColor="#cc0000" />
+
+            <Button
+                android:id="@+id/buttonShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@+id/textView_comments_actionBar_documentN"
+                android:background="@drawable/btn_share_document" />
+
+            <Button
+                android:id="@+id/buttonFacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/buttonShare"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@+id/buttonShare"
+                android:background="@drawable/btn_fb_document" />
+
+            <ImageView
+                android:id="@+id/buttonBrowseBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/btn_back_document" />
+
+            <ImageView
+                android:id="@+id/buttonBrowseForward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="7dp"
+                android:layout_toLeftOf="@id/buttonBrowseBack"
+                android:background="@drawable/btn_forward_document" />
+
+            <ImageView
+                android:id="@+id/imageView_textSize_actionBar_documentN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/buttonShare"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@+id/buttonFacebook"
+                android:background="@drawable/btn_textsize_document" />
+
+            <FrameLayout
+                android:id="@+id/rView"
+                android:layout_width="48dp"
+                android:layout_height="42dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" >
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/lView"
+                android:layout_width="48dp"
+                android:layout_height="42dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@id/rView" >
+            </FrameLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frameAdViewContainer_Pull_to_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/documentActionBarLayout"
+            android:background="@color/White"
+            android:visibility="gone" >
+
+            <!--<com.google.android.gms.ads.doubleclick.PublisherAdView-->
+                <!--android:id="@+id/adView3"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--ads:adSize="BANNER"-->
+                <!--ads:adUnitId="/43010785/globes/king//slider.globes.ros"-->
+                <!--android:background="@color/White"-->
+                <!--android:gravity="center"-->
+                <!--android:visibility="gone" >-->
+            <!--</com.google.android.gms.ads.doubleclick.PublisherAdView>-->
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:id="@+id/documentScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/frameAdViewContainer_Pull_to_refresh"
+            android:fadingEdge="none" >
+
+            <!-- android:scrollbars="vertical" -->
+            <!-- android:background="#FFFFFFFF" -->
+            <!-- #FFFFFFFF -->
+
+            <RelativeLayout
+                android:id="@+id/documentMainLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFFFF"                
+                android:textColor="#000000" >
+
+                
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				    android:id="@+id/row_layout_livebox_adview_frame_layout_container"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center"
+				    android:layout_alignParentTop="true"
+				    android:visibility="gone" >
+                </RelativeLayout>
+                
+                <RelativeLayout
+			            android:id="@+id/frameAdViewContainer_Pull_to_refresh_top"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:background="@color/transparent"
+			            android:layout_alignParentTop="true"			                               
+			            android:visibility="gone" >
+
+                    <com.google.android.gms.ads.doubleclick.PublisherAdView
+                        android:id="@+id/adView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        ads:adSize="BANNER"
+                        ads:adUnitId="/43010785/globes/king//slider.globes.ros"
+                        android:background="@color/White"
+                        android:gravity="center"
+                        android:visibility="gone" >
+                    </com.google.android.gms.ads.doubleclick.PublisherAdView>
+
+
+			    </RelativeLayout>
+			    
+                
+                <View
+                    android:id="@+id/view_dummy"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_below="@+id/modified_plus_documentWriter_container"
+                    android:background="@color/transparent" />
+                                
+                <RelativeLayout
+                    android:id="@+id/gallery_and_regularImage_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/frameAdViewContainer_Pull_to_refresh_top" 
+                     >                    
+                    
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/viewPager"
+                        android:layout_width="wrap_content"
+                        android:layout_height="180dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:visibility="gone" >
+                    </android.support.v4.view.ViewPager>
+                    
+                    <com.viewpagerindicator.CirclePageIndicator
+                        android:id="@+id/titles"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/viewPager"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="3dp"
+                        android:paddingTop="1dp"
+                        android:visibility="gone"
+                        app:fillColor="@color/red"
+                        app:strokeColor="@color/gray" />         
+    
+                    <ImageView
+                        android:id="@+id/imageOpnion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="false"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:scaleType="centerInside"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/view_dummy2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+
+                <!-- The image photographer -->
+
+                <TextView
+                    android:id="@+id/textViewDocumentImageAuthor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/gray"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+
+                <il.co.globes.android.objects.CustomWebView
+                    android:id="@+id/textViewDocumentTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/gallery_and_regularImage_container"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="16dp"
+                    android:background="#FFFFFFFF"
+                    android:gravity="right"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:id="@+id/modified_plus_documentWriter_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewDocumentTitle"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="12dp" >
+
+                    <TextView
+                        android:id="@+id/textViewDocumentModifiedOn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="16dp"
+                        android:textColor="@color/gray"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/textViewDocumentWriter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@id/textViewDocumentModifiedOn"
+                        android:ellipsize="end"
+                        android:maxLength="20"
+                        android:singleLine="true"
+                        android:textColor="@color/gray"
+                        android:textSize="10sp" />
+                </RelativeLayout>
+                
+         <WebView
+                android:id="@+id/webView_live_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/modified_plus_documentWriter_container"
+				android:visibility="gone" />
+       
+
+            <il.co.globes.android.objects.CustomWebView
+                android:id="@+id/textViewDocumentSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@+id/webView_live_box"
+                android:layout_marginBottom="-3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:id="@+id/regular_image_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewDocumentSubTitle"
+                    android:layout_centerHorizontal="true" >
+
+                    <FrameLayout
+                        android:id="@+id/frameLayoutDocumentVideo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@color/pink"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:id="@+id/imageViewDocumentVideo"
+                            android:layout_width="match_parent"
+                            android:layout_height="164dp"
+                            android:layout_gravity="center"
+                            android:scaleType="fitXY" />
+
+                        <Button
+                            android:id="@+id/buttonPlayDocumentVideo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@color/button_play"
+                            android:visibility="gone" />
+                    </FrameLayout>
+                </RelativeLayout>
+
+                <WebView
+                    android:id="@+id/wvEmbeddedClip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/regular_image_container"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:visibility="gone" />
+
+                <WebView
+                    android:id="@+id/textViewDocumentText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/wvEmbeddedClip"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="12sp" />
+
+<!--  				<WebView
+                    android:id="@+id/webView_iframe_ad"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_below="@id/textViewDocumentText"
+                    android:layout_marginBottom="8dp" />
+ -->
+                <HorizontalScrollView
+                    android:id="@+id/horizontal_scrollVIEW"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewDocumentText"
+                    android:fillViewport="true"
+                    android:scrollbars="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/contenair_tagiot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </HorizontalScrollView>
+                
+                 <RelativeLayout
+                    android:id="@+id/adView_frame_bottom_phone_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/horizontal_scrollVIEW"
+                    android:background="@color/White"
+                    android:visibility="gone" >
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/list_extra_document_by_outbrain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/adView_frame_bottom_phone_banner"
+                    android:layout_marginBottom="8dp"
+                    android:paddingBottom="8dp"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/adSekindoBottomBanner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/list_extra_document_by_outbrain"
+                    android:background="@color/White"
+                    android:gravity="center"
+                    android:visibility="gone" >
+                </RelativeLayout>
+                               
+                <WebView
+                    android:id="@+id/webView_iframe_ad"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_below="@id/adSekindoBottomBanner"
+                    android:layout_marginBottom="8dp"
+                    android:visibility="gone"/>
+                
+                <LinearLayout
+                    android:id="@+id/layoutDocumentResponsesHeader"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/webView_iframe_ad"
+                    android:background="@color/White"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:visibility="visible"
+                    android:weightSum="2" >
+
+                    <Button
+                        android:id="@+id/buttonAddResponse"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_with_black_border"
+                        android:gravity="center"
+                        android:text="לתגובה"
+                        android:textColor="#c10000"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewResponsesCount"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="8dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@color/Black"
+                        android:textDirection="rtl"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>                
+                
+                <LinearLayout
+                    android:id="@+id/layoutSpotIm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layoutDocumentResponsesHeader">
+                 </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/test_layout_Responses"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/layoutDocumentResponsesHeader"
+                    android:background="@color/White"
+                    android:orientation="vertical" >
+                </LinearLayout>                
+                
+                 <LinearLayout
+                    android:id="@+id/layoutBottomSpace"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_below="@+id/test_layout_Responses">
+	              </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/adView_frame_bottom_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/test_layout_Responses"
+                    android:background="@color/White"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:visibility="gone" >
+                </RelativeLayout> 
+                
+                 <RelativeLayout
+			            android:id="@+id/frameWallaFusionDCScripts"
+			            android:layout_width="1dp"
+			            android:layout_height="1dp"
+			            android:layout_below="@id/test_layout_Responses"
+			            android:background="@color/transparent"
+			            android:layout_gravity="bottom|center_horizontal"			                               
+			            android:visibility="gone" >
+			    </RelativeLayout>
+
+
+            </RelativeLayout>
+        </ScrollView>   
+    </RelativeLayout>
+   
+    <!-- Ad splash container -->
+
+    <FrameLayout
+        android:id="@+id/relativeLayout_splashArticle_container_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:visibility="visible" >
+    </FrameLayout>
+
+    <!-- Rich Media DFP container -->
+
+    <FrameLayout
+        android:id="@+id/rich_media_container_document_portrait"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ProgressBar
+            android:id="@+id/progressBar_parse"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    
+     <RelativeLayout
+            android:id="@+id/frameAdViewContainer_Pull_to_refresh_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@color/White"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:visibility="gone" >
+        </RelativeLayout>
+    
+</RelativeLayout>

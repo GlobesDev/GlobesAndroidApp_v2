@@ -426,7 +426,7 @@ public class SplashScreen extends Activity implements WallaAdvTaskCompleted {
                  * Log the Ad Error and close the Activity move to
                  * MainTabActivity
                  */
-                Log.e("alex", "dfpAdHandle splash failed to receive Ad with AdUnit: " + Definitions.dfp_interstitial_main + " the error: " + errorCode);
+                Log.e("alex", "dfpAdHandle1 splash failed to receive Ad with AdUnit: " + Definitions.dfp_interstitial_main + " the error: " + errorCode);
                 isAdClicked = false;
 
                 String message = "Google onAdFailedToLoad: " + getErrorReason(errorCode);
@@ -485,7 +485,7 @@ public class SplashScreen extends Activity implements WallaAdvTaskCompleted {
                 errorReason = "Network Error";
                 break;
             case AdRequest.ERROR_CODE_NO_FILL:
-                errorReason = "No fill";
+                errorReason = "No fill!";
                 break;
         }
         return errorReason;

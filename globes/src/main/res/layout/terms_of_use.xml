@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"	
+    android:layout_height="wrap_content"
+    android:clickable="true"
+	android:id="@+id/frameLayout1" >	
+    
+	<RelativeLayout 
+	   
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:fadingEdge="none"
+		android:id="@+id/mainLayout">		
+	
+		<ScrollView 
+		    android:id="@+id/documentScrollView"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:fadingEdge="none"
+			android:layout_above="@id/linearLayoutBottomBarAndBanner" >
+
+			<RelativeLayout 
+	        	android:id="@+id/documentMainLayout"
+	        	android:layout_width="fill_parent" 
+				android:layout_height="fill_parent"
+				android:padding="1dip" 
+				android:background="#FFFFFFFF" 
+				android:textColor="#000000"	>			    
+				
+			     <WebView 
+			    	android:id="@+id/wvTerms"
+			        android:layout_width="wrap_content"
+			        android:layout_height="fill_parent" 
+			        android:layout_marginRight="0dip"
+			        android:scrollbars="none"/>
+			    	
+				<TextView 
+				    android:id="@+id/textViewDocumentTitle"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content" 
+					android:layout_gravity="right"					
+					android:layout_marginRight="5dp"				 
+					android:textStyle="bold" 
+					android:textSize="14dp"
+					android:background="#FFFFFFFF"/>
+					
+				<FrameLayout android:id="@+id/frameLayoutDocumentVideo" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:layout_marginRight="10dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginBottom="0dp"
+					android:layout_centerHorizontal="true"
+					android:layout_below="@id/textViewDocumentTitle"
+					android:visibility="gone">
+					
+					<ImageView 
+					    android:id="@+id/imageViewDocumentVideo"
+						android:layout_height="wrap_content" 
+						android:layout_width="wrap_content"
+						android:scaleType="centerInside"/>								
+								
+					<Button 
+						android:id="@+id/buttonPlayDocumentVideo" 
+						android:layout_width="wrap_content" 
+						android:layout_height="wrap_content" 
+						android:layout_gravity="center_vertical|center_horizontal"
+						android:background="@color/button_play" 
+						android:visibility="gone" />
+							
+				</FrameLayout>	            
+		       	
+				<TextView 
+				    android:id="@+id/terms"
+	             	android:layout_width="wrap_content"    
+	             	android:layout_height="wrap_content"
+	             	android:textSize="12dp"	             	          	
+	             	android:layout_marginRight="5dp"
+	             	android:layout_alignParentRight="true"/>	            
+			
+				<LinearLayout 
+				    android:id="@+id/layoutDocumentResponsesHeader"
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent"
+				    android:orientation="horizontal" 
+				    android:background="@color/rowlayout_group_color"
+				    android:layout_below="@id/textViewDocumentText"
+				    android:clickable = "true"
+				    android:visibility="invisible">
+			    
+					<Button 
+						android:id="@+id/buttonAddResponse" 
+						android:layout_width="138dp" 
+						android:layout_height="39dp" 
+						android:layout_marginLeft="10dp" 
+						android:gravity="center_vertical" 
+						android:background="@color/button_add_response" 
+						android:layout_marginBottom="10dp" 
+						android:layout_marginTop="10dp" 
+						android:layout_gravity="left|center_vertical"/>					
+					
+				</LinearLayout>		
+		
+			</RelativeLayout>
+			
+		</ScrollView>
+
+	</RelativeLayout>
+	
+</LinearLayout>

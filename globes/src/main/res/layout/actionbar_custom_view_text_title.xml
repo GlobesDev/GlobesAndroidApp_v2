@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView_actionBar_right_icon"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentRight="true"
+        android:background="#feebe2"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_action_btn_menu" />
+
+    <TextView
+        android:id="@+id/textView_actionBar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/imageView_actionBar_right_icon"
+        android:layout_toRightOf="@+id/btn_home"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:inputType="text"
+        android:maxLines="1"
+        android:text="@string/red_email"
+        android:textColor="@color/RedEmailTitle"
+        android:textSize="24.5sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/btn_home"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/btn_home" />
+
+</RelativeLayout>

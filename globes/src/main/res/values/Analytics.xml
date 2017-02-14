@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ga_trackingId">UA-453294-25</string>
+    <string name="ga_appName">globes-android-app</string>
+
+    <!-- Enable Activity tracking -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- Enable automatic exception tracking -->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <!-- The screen names that will appear in your reporting -->
+    <string name="il.co.globes.android.AboutActivity">About</string>
+    <string name="il.co.globes.android.AddRemoveShareTikAishiActivity">AddRemoveShareTikAishi</string>
+    <string name="il.co.globes.android.AttachmentPicker">AttachmentPicker</string>
+    <string name="il.co.globes.android.CompanyActivity">Company</string>
+    <string name="il.co.globes.android.DocumentActivity">Document</string>
+    <string name="il.co.globes.android.DocumentResponsesActivity">DocumentResponses</string>
+    <string name="il.co.globes.android.DocumentSearchListActivity">DocumentSearchList</string>
+    <string name="il.co.globes.android.FinancialPortalActivity">FinancialPortal</string>
+    <string name="il.co.globes.android.GlobesPreferences">GlobesPreferences</string>
+    <string name="il.co.globes.android.LoginActivity">Login</string>
+    <string name="il.co.globes.android.MainActivity">Main</string>
+    <string name="il.co.globes.android.MainSlidingActivity">MainSliding</string>
+    <string name="il.co.globes.android.MainTabActivity">MainTab</string>
+    <string name="il.co.globes.android.ManagerActivity">Manager</string>
+    <string name="il.co.globes.android.MarketsListActivity">MarketsList</string>
+    <string name="il.co.globes.android.NewDocumentActivity">NewDocument</string>
+    <string name="il.co.globes.android.NewLoginActivity">AndroidLoginPage</string>
+    <string name="il.co.globes.android.PortfolioActivity">Portfolio</string>
+    <string name="il.co.globes.android.RowAdActivity">RowAd</string>
+    <string name="il.co.globes.android.SectionListActivity">SectionList</string>
+    <string name="il.co.globes.android.SectionsListActivity">SectionsList</string>
+    <string name="il.co.globes.android.ShareActivity">Share</string>
+    <string name="il.co.globes.android.SharesListActivity">SharesList</string>
+    <string name="il.co.globes.android.SplashArticle">SplashArticle</string>
+    <string name="il.co.globes.android.SplashScreen">SplashScreen</string>
+    <string name="il.co.globes.android.TermsOfUse">TermsOfUse</string>
+    <string name="il.co.globes.android.TVListActivity">TVList</string>
+    <string name="il.co.globes.android.VideoActivity">Video</string>
+    <string name="il.co.globes.android.VideoWebViewActivity">VideoWebView</string>
+    
+    
+    
+    
+    
+    
+    <string name="il.co.globes.android.fragments.AboutFragment">About</string>
+    <string name="il.co.globes.android.fragments.ArticleDuns100Fragment">ArticleDuns100</string>
+    <string name="il.co.globes.android.fragments.DocumentFragment">Document</string>
+    <string name="il.co.globes.android.fragments.FinancialPortalFragment">FinancialPortal</string>
+    <string name="il.co.globes.android.fragments.GeneralSearchFragment">GeneralSearch</string>
+    <string name="il.co.globes.android.fragments.ListOpinionsFragment">ListOpinions</string>
+    <string name="il.co.globes.android.fragments.MainFragment">Android_MainPage</string>
+    <string name="il.co.globes.android.fragments.MenuListFragment">MenuList</string>
+    <string name="il.co.globes.android.fragments.PortalFinancialSearchFragment">PortalFinancialSearch</string>
+    <string name="il.co.globes.android.fragments.PortFolioFragment">AndroidPortFolioPage</string>
+    <string name="il.co.globes.android.fragments.RedMailFragment">RedMail</string>
+    <string name="il.co.globes.android.fragments.SectionListFragment">SectionList</string>
+    <string name="il.co.globes.android.fragments.ShareFragment">Share</string>
+    <string name="il.co.globes.android.fragments.StockSearchFragment">StockSearch</string>
+    <string name="il.co.globes.android.fragments.TickerPreferencesFragment">TickerPreferences</string>
+    <string name="il.co.globes.android.fragments.WebViewFragment">WebView</string>
+
+</resources>

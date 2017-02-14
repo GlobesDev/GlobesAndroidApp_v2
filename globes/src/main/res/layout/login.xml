@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:text="@string/emailFieldName" />
+
+    <EditText
+        android:id="@+id/editTxtUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:text="@string/pwdFieldTitle" />
+
+    <EditText
+        android:id="@+id/editTextUserPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"/>
+    
+    <EditText
+        android:id="@+id/etNewUserPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:visibility="gone"
+        android:imeOptions="actionNext"/>
+    
+    <TextView        
+        android:id="@+id/tvNewUserPwd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:text="@string/login_verify_pwd" 
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/etNewUserPwd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:visibility="gone"
+        android:imeOptions="actionNext"/>    
+     
+    <TextView        
+        android:id="@+id/tvNewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_gravity="right"        
+        android:text="@string/login_name" 
+        android:visibility="gone" />"
+
+    <EditText
+        android:id="@+id/etNewUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:visibility="gone"        
+        android:imeOptions="actionDone"/>
+    
+	<LinearLayout
+	    android:id="@+id/loRememberUser"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:gravity="center_vertical|right"
+		android:layout_gravity="center_vertical|right" 
+		android:orientation="horizontal"			
+		android:padding="2dp">
+		    
+	    <TextView        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical|right"
+	        android:layout_gravity="center_vertical|right"
+	        android:text="@string/login_remember_me" />
+			    
+	    <CheckBox
+	        android:id="@+id/chkRememberUser"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content" 
+	        android:gravity="center_vertical|right"
+	        android:layout_weight="1"
+	        android:layout_gravity="center_vertical|right"/>
+	    
+	</LinearLayout> 
+	
+	<LinearLayout
+	    android:id="@+id/loAcceptTerms"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:gravity="center_vertical|right"
+		android:layout_gravity="center_vertical|right" 
+		android:orientation="horizontal"			
+		android:padding="2dp" 
+		android:visibility="gone">"
+		    
+	    <TextView 
+	        android:id="@+id/tvAcceptTerms"       
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical|right"
+	        android:layout_gravity="center_vertical|right"/>
+			    
+	    <CheckBox
+	        android:id="@+id/chkAcceptTerms"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content" 
+	        android:gravity="center_vertical|right"
+	        android:layout_weight="1"
+	        android:layout_gravity="center_vertical|right" />
+	    
+	</LinearLayout>    
+        
+    <Button
+        android:id="@+id/btnLogin"
+        android:background="@color/button_login"
+        android:layout_width="300dp" 
+		android:layout_height="30dp" 
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp" />  
+        
+    <Button
+        android:id="@+id/btnNewUser"        
+        android:background="@color/button_new_user"
+        android:layout_width="300dp" 
+		android:layout_height="30dp" 		
+        android:layout_gravity="center"	
+        android:layout_marginTop="10dp" />
+    
+     <Button
+         android:id="@+id/btn_open_test_activity"
+         android:layout_width="300dp"
+         android:layout_height="30dp"
+         android:layout_gravity="center"
+         android:layout_marginTop="10dp"
+         android:visibility="gone"
+         android:text="test" />
+
+</LinearLayout>

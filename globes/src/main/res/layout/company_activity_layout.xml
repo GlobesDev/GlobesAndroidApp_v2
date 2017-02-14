@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/documentActionBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/White" >
+
+        <ImageView
+            android:id="@+id/buttonShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/textView_comments_actionBar_documentN"
+            android:background="@drawable/btn_share_document" />
+
+        <ImageView
+            android:id="@+id/imageView_textSize_actionBar_documentN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/buttonShare"
+            android:background="@drawable/btn_textsize_document" />
+
+        <ImageView
+            android:id="@+id/imageView_back_actionBar_documentN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/btn_back_document" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_markofExcelence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/documentActionBarLayout"
+        android:background="@drawable/markofexcellence" />
+
+    <ScrollView
+        android:id="@+id/documentScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/img_markofExcelence"
+        android:fadingEdge="none" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/White" >
+
+            <LinearLayout
+                android:id="@+id/companyNameHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/img_mark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="16dp"
+                    android:scaleType="fitXY" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/grey_rate" />
+
+                <TextView
+                    android:id="@+id/textView_name_of_company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="8dp"
+                    android:textColor="@color/Black"
+                    android:gravity="right"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/scrollView_managers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/companyNameHeader"
+                android:background="#f5e2bc" >
+
+                <LinearLayout
+                    android:id="@+id/managerContenair"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/rank_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/scrollView_managers"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text_company_rank_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:textColor="#a77931"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/img_ball_duns100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/company_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rank_ll"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_years"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/text_years_ofcompany"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:textColor="@color/Black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="שנת הקמה"
+                        android:textColor="#a77931"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/text_area_ofcompany"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:textColor="@color/Black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="תחום"
+                        android:textColor="#a77931"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_pelehone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/text_pelephone_ofcompany"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:textColor="@color/Black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="טלפון"
+                        android:textColor="#a77931"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_fax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/text_fax_ofcompany"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:textColor="@color/Black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="פקס"
+                        android:textColor="#a77931"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_website"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/text_name_of_web_site"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:autoLink="web"
+                        android:textColor="@color/Black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="אתר"
+                        android:textColor="#a77931"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_adress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/text_adress_ofcompany"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:gravity="right"
+                        android:textColor="@color/Black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="כתובת"
+                        android:textColor="#a77931"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <il.co.globes.android.objects.CustomWebView
+                android:id="@+id/textViewCompanyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/company_details"
+                android:layout_gravity="right"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="16dp"
+                android:background="#FFFFFFFF"
+                android:gravity="right"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

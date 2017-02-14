@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:gravity="center_vertical|right"
+    android:background="@drawable/header_instruments_shares">
+
+   		<LinearLayout 
+        android:orientation="horizontal"  
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical|right"
+       >
+		
+           <TextView android:id="@+id/isntrumentPercentageChange"
+           android:layout_width="fill_parent" 
+           android:layout_height="fill_parent"
+           android:gravity="center_vertical|left"    	  
+           android:layout_gravity="center_vertical|right" 
+           android:layout_weight="30" 
+           android:text="שינוי באחוזים"
+           android:textStyle="bold"
+           android:textSize="13dp"
+           ></TextView>
+           
+           <TextView android:gravity="center_vertical|left" 
+           android:textSize="13dp" 
+           android:text="שער אחרון" 
+           android:layout_width="fill_parent" 
+           android:id="@+id/instrumentLast" 
+           android:layout_height="fill_parent" 
+           android:layout_weight="30" 
+		   android:textStyle="bold"
+           android:layout_gravity="right"></TextView>
+             
+            <TextView android:id="@+id/isntrumentText"  
+            android:layout_gravity="right" 
+            android:paddingLeft="15dp" 
+            android:layout_height="fill_parent" 
+            android:layout_width="fill_parent" 
+            android:layout_weight="25" 
+           	android:text="סוג"
+            android:textSize="13dp"   
+            android:gravity="center_vertical|left"
+            android:paddingRight="5dp"
+            ></TextView>     
+    </LinearLayout>
+	
+</LinearLayout>

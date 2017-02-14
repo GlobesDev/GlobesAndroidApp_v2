@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="GOOGLE_API_PROJECT_NUMBER">767517943759</string>
+    <string name="PUSHAPPS_APP_TOKEN">4dcdf6d2-1fda-4398-ad5d-2d8a4b9622f3</string>
+    <string name="app_id">159652850757022</string>
+    <string name="url_simple_ad_pre_roll"><![CDATA[http://pubads.g.doubleclick.net/gampad/ads?sz=320x480&iu=/7263/Preroll_Android&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=%1$s&description_url=%2$s&correlator=%3$s]]></string>
+    <string name="url_simple_ad_pre_roll_check"><![CDATA[http://pubads.g.doubleclick.net/gampad/ads?sz=320x480&iu=/7263/Preroll_Android&ciu_szs&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=%1$s&description_url=%2$s&correlator=%3$s]]></string>
+    <string name="action_bar_analytics_default_title">Globes Default</string>
+    <string name="logIn">התחבר</string>
+    <string name="logOut">התנתק</string>
+    <string name="hello"></string>
+    <string name="ok">OK</string>
+    <string name="title_update_looper_dialog">עדכון: פס מדדים</string>
+    <string name="app_name">Globes</string>
+    <string name="financial_portal">פורטל פיננסי</string>
+    <string name="document">כתבות</string>
+    <string name="responses">תגובות</string>
+    <string name="main">ראשי</string>
+    <string name="main_news">חדשות</string>
+    <string name="sections">מדורים</string>
+    <string name="markets">שווקים</string>
+    <string name="stocks">מניות</string>
+    <string name="tv">TV</string>
+    <string name="red_email">דואר אדום</string>
+    <string name="portfolio">תיק אישי</string>
+    <string name="preferences">הגדרות</string>
+    <string name="search">חיפוש חדשות</string>
+    <string name="search_article">חיפוש כתבה</string>
+    <string name="searchFinancial">חיפוש מניות</string>
+    <string name="about">אודות</string>
+    <string name="ResponseUserName">כינוי</string>
+    <string name="ResponseSubject">נושא</string>
+    <string name="ResponseText">תוכן</string>
+    <string name="checkBoxFlipAlignment">יישור טקסט</string>
+    <string name="summaryFlipAlignment">יישר טקסט לימין</string>
+    <string name="checkBoxMediaPlayer">נגן וידאו בדפדפן</string>
+    <string name="checkBoxNotifications">התראות</string>
+    <string name="checkBoxNotificationSound">צלילי התראות</string>
+    <string name="summaryMediaPlayer">בחר אפשרות זו אם ישנה בעיה בניגון וידאו במכשירך</string>
+    <string name="summaryNotifications">בחר אפשרות זו אם ברצונך לקבל התראות מהאפליקציה</string>
+    <string name="summaryNotificationSound">בחר אפשרות זו אם ברצונך לשמוע צליל בעת ההתראה</string>
+    <string name="forex">מט"ח</string>
+    <string name="aboutActivityText">גלובס - Globes</string>
+    <string name="headerApplication"><u><b>האפליקציה -</b></u></string>
+    <string name="about_2">גלובס - עיתון העסקים של ישראל. אפליקציית גלובס החדשה מאפשרת לך להתעדכן בחדשות הכלכליות לאורך כל היום ולקבל מידע פיננסי מקיף, זמין ועדכני בנושאי שוק ההון, נדל\"ן, היי טק, תקשורת ועולם השיווק.</string>
+    <string name="about_3">כל הכתבות, המדורים, הדעות, שידורים חיים וראיונות בלעדיים עם מובילי השוק עכשיו אצלך בכף היד. </string>
+    <string name="headerCapabilities"><u><b>יכולות -</b></u></string>
+    <string name="about_5">- חדשות עדכניות - כותרות היום, פורטל פיננסי, שערים, מדדים וני\"ע.</string>
+    <string name="about_6">- גלובס TV - צפייה בשידורים מהשטח, מגזין כלכלה יומי, וראיונות בלעדיים</string>
+    <string name="about_7">- ניווט קל, מהיר ואינטואיטיבי</string>
+    <string name="about_8">- אפשרות הגדלה והקטנת טקסט</string>
+    <string name="about_9">- יכולת הוספת תגובות וצפייה בתגובות</string>
+    <string name="about_10">- אפשרות שיתוף כתבות לכלל הרשתות החברתיות שלך - Facebook ,Twitter ,Google ,Yahoo ועוד...</string>
+    <string name="about_11">- שליחת כתבות במייל ובהודעת SMS </string>
+    <string name="about_12">- מנגנון חיפוש כתבות</string>
+    <string name="version">גרסה 1.251 </string>
+    <string name="emailFieldName">דואר אלקטרוני:</string>
+    <string name="pwdFieldTitle">סיסמא:</string>
+    <string name="aboutDivider">====================</string>
+    <string name="turnToSeeGraph">*לצפייה בגרף מפורט ומוגדל יש לסובב את המכשיר</string>
+    <string name="redEmailTitle">יש לכם חדשות בשבילנו</string>
+    <string name="redEmailSubtitle">ספרו לנו - ונספר לקוראי ;גלובס</string>
+    <string name="redEmailContent">:המידע שרצית לגלות לנו</string>
+    <string name="redEmailName">(שם (לא חובה</string>
+    <string name="redEmailAddress">(דואר אלקטרוני (לא חובה</string>
+    <string name="tof_loading">טוען...</string>
+    <string name="dialog_add_pic">בחר תמונה</string>
+    <string name="dialog_btn_take_pic">צלם תמונה</string>
+    <string name="dialog_btn_choose_pic">בחר מגלריה</string>
+    <string name="dialog_btn_cancel">ביטול</string>
+    <string name="email_write">כיתבו לנו</string>
+    <string name="email_send_clip">שלחו סרטון</string>
+    <string name="email_send_pic">שלחו תמונה</string>
+    <string name="do_you_have_news">יש לכם חדשות בשבילנו\?</string>
+    <string name="login_remember_me">מהכניסה הבאה חברו אותי באופן אוטומטי</string>
+    <string name="login_name">שם:</string>
+    <string name="login_verify_pwd">אימות סיסמה:</string>
+
+    <!-- added by Eviatar -->
+    <string name="dialog_title_add_comment">הוסף תגובה</string>
+    <string name="dialog_btn_send">שלח</string>
+    <string name="dialog_title_choose_video">בחר וידאו</string>
+    <string name="dialog_btn_film_video">צלם וידאו</string>
+    <string name="red_email_body_title">אנא מלא את הפרטים הבאים</string>
+    <string name="red_email_body_name">שם</string>
+    <string name="red_email_body_phone">טלפון</string>
+    <string name="red_email_body_email">דואר אלקטרוני</string>
+    <string name="red_email_body_content">תוכן</string>
+    <string name="login_email_error">אנא מלא כתובת דואר אלקטרוני תקינה</string>
+    <string name="login_password_fill">אנא מלא סיסמא</string>
+    <string name="login_password_guide">את הסיסמא יש לבנות מלפחות שישה תווים המורכבים מאותיות באנגלית ומספרים</string>
+    <string name="login_password_error">יש טעות בהקלדת אישור הסיסמה</string>
+    <string name="login_terms_of_use_error">יש לאשר את תנאי השימוש</string>
+    <string name="login_system_error">ארעה שגיאה במערכת</string>
+    <string name="login_terms_of_use_confirmation">הנני מאשר את תנאי השימוש</string>
+
+    <!-- user notifications on loginActivity -->
+    <string name="login_system_notice">הודעת מערכת</string>
+    <string name="login_in_order_to_end_registartion_part_a"> בכדי לסיים את תהליך הרישום לאתר גלובס אנא עבור לתיבת הדואר שלך ולחץ על הקישור המופיע בהודעה שנשלחה אליך * במידה ולא קיבלת הודעת מייל מגלובס לתיבת הדואר שלך, יש להתקשר למחלקת השירות בטלפון   03-9538666</string>
+    <string name="login_in_order_to_end_registartion_part_b">או לנסות ולהירשם לשירות בשנית * תודה * צוות גלובס</string>
+    <string name="system_error">שגיאה במערכת</string>
+    <string name="share_activity_forex">מס\' ני\"ע:</string>
+    <string name="title_activity_looper_preferences">LooperPreferencesActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Dialog texts -->
+    <string name="dialog_continue">המשך</string>
+    <string name="dialog_cancel">בטל</string>
+    <string name="dialog_tagiot_title">תגיות גלובס</string>
+    <string name="dialog_tagiot_body">לחיצה על המשך תעביר אתכם לאתר גלובס</string>
+    <string name="dialog_link_title">גלובס</string>
+    <string name="dialog_link_body">לחיצה על המשך תעביר אתכם לקישור המיועד</string>
+    <string name="title_activity_row_ad">RowAdActivity</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_main_sliding">MainSlidingActivity</string>
+
+    <!-- new app strings -->
+    <string name="FB_success_post">שיתוף לפייסבוק בוצע בהצלחה</string>
+
+    <!-- Push Dialog -->
+    <string name="dialog_push">בחר תמונה</string>
+
+    <!-- Red Mail Dialog -->
+    <string name="dialog_redMail_choose_from_gallery">בחר מגלריה</string>
+    <string name="dialog_redMail_choose_pic">בחר תמונה</string>
+    <string name="dialog_redMail_choose_video">בחר וידאו</string>
+    <string name="dialog_redMail_take_pic">המשך</string>
+    <string name="dialog_redMail_take_video">צלם וידאו</string>
+
+    <!-- Dialog leave application -->
+    <string name="dialog_leave_application_title">גלובס</string>
+    <string name="dialog_leave_application_msg">האם ברצונכם לצאת מהאפליקציה ?</string>
+    <string name="dialog_leave_application_cancel">לא</string>
+    <string name="dialog_leave_application_ok">כן</string>
+
+    <!-- menu item names -->
+    <string name="feeder">Feeder</string>
+    <string name="duns100">duns100</string>
+    <string name="sponser">Sponser</string>
+    <string name="separator">separator</string>
+    <!-- Right menu list items -->
+
+
+    <!-- static section part 1 -->
+    <string-array name="right_menu_item_names_static_section_part_1">
+        <item>חדשות</item>
+        <item>פורטל פיננסי</item>
+        <item>תיק אישי</item>
+        <item>separator</item>
+    </string-array>
+
+    <!-- static section part 2 -->
+    <string-array name="right_menu_item_names_static_section_part_2">
+        <item>separator</item>
+        <item>מט\"ח</item>
+        <item>ארביטראז\'</item>
+        <item>אג\"ח</item>
+        <item>קרנות נאמנות</item>
+        <item>תעודות סל</item>
+        <item>separator</item>
+        <item>דואר אדום</item>
+        <item>DUNS100</item>
+        <item>FEEDER</item>
+        <item>SPONSER</item>
+        <item>separator</item>
+        <item>אודות</item>
+        <item>הגדרות</item>
+    </string-array>
+
+    <string name="title_activity_video_web_view">VideoWebViewActivity</string>
+    <string name="news">ראשי</string>
+    <string name="globes_tv">גלובס TV</string>
+    <string name="stock_market">שוק ההון</string>
+    <string name="netah_shouk">נתח שוק וצרכנות</string>
+    <string name="din_vehechbon">דין וחשבון</string>
+    <string name="pnai">פנאי</string>
+    <string name="kalkala_">כלכלה על הבר</string>
+    <string name="metah">מט\"ח</string>
+    <string name="arbitrag">ארביטראז\'</string>
+    <string name="agah">אג\"ח</string>
+    <string name="queranot_neemanout">קרנות נאמנות</string>
+    <string name="teoudat_sal">תעודות סל</string>
+    <string name="doar_adom">דואר אדום</string>
+    <string name="petrol">גז ונפט</string>
+    <string name="wall_street">וול סטריט</string>
+    <string name="high_tech">היי טק</string>
+
+    <!-- Red Mail fragment -->
+    <string name="write_us">כיתבו לנו</string>
+    <string name="send_picture">שלחו תמונה</string>
+    <string name="send_video">שלחו סרטון</string>
+
+    <!-- new pull to refresh -->
+    <string name="ptr_pull_text">משוך לרענון</string>
+    <string name="ptr_RefreshingText">מרענן</string>
+    <string name="ptr_ReleaseText">נתונים עודכנו</string>
+    <string name="title_activity_article_outbrain_external">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+    <string name="content_url"><![CDATA[http://rmcdn.2mdn.net/MotifFiles/html/1248596/android_1330378998288.mp4]]></string>
+    <string name="ad_tag_url"><![CDATA[http://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dskippablelinear&correlator=]]></string>
+    
+
+</resources>

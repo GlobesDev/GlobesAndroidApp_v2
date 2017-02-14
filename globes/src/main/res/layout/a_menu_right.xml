@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/right_menu_list_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/Transparent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <View
+                android:id="@+id/center_view"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="@color/Transparent" />
+
+            <RelativeLayout
+                android:id="@+id/header_layout_left"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/center_view"
+                android:background="@color/Transparent" >
+
+                <ImageView
+                    android:id="@+id/Img_portal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/portal_logo_right_menu"
+                    android:gravity="center" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/header_layout_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignLeft="@+id/center_view"
+                android:layout_alignParentRight="true"
+                android:background="@color/Transparent" >
+
+                <ImageView
+                    android:id="@+id/Img_globes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/globes_logo_right_menu"
+                    android:gravity="center" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/search_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerLayout"
+        android:layout_marginTop="8dp" >
+
+        <EditText
+            android:id="@+id/editText_menu_item_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:background="@color/right_menu_search_background"
+            android:hint="@string/search_article"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:paddingLeft="32dp"
+            android:paddingRight="16dp"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/imageView_menu_item_button_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:background="@color/right_menu_search_background"
+            android:contentDescription="@string/search"
+            android:scaleType="center" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tikIchiLayout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@+id/search_layout"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/Button_LogIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TextView_tikIchi"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:text="תיק אישי"
+            android:textColor="@color/White"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/imageView_menu_item_seperator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/menu_item_separator" >
+        </ImageView>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/list_frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/tikIchiLayout" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/right_menu_list_background"
+            android:cacheColorHint="@color/Transparent"
+            android:divider="@color/Transparent" >
+        </ListView>
+    </FrameLayout>
+
+</RelativeLayout>
