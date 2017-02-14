@@ -442,7 +442,6 @@ public class SplashScreen extends Activity implements WallaAdvTaskCompleted {
 				 * } }
 				 */
                 contentSwitcher.sendEmptyMessage(CLOSESPLASH);
-
             }
 
             public void onAdOpened() {
