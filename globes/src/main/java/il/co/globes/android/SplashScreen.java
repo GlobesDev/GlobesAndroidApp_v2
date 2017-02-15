@@ -499,7 +499,6 @@ public class SplashScreen extends Activity implements WallaAdvTaskCompleted {
         dfpAdView = new PublisherAdView(SplashScreen.this);
 
         //frameLayAdContainer.setBackgroundColor(Color.RED);
-
         if (isMainSplash) {
             Log.e("alex", "dfpAdHandle Main Splash!!!");
             dfpAdView.setAdUnitId(Definitions.dfp_interstitial_main);
