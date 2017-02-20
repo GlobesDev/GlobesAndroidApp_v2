@@ -1,15 +1,7 @@
 [
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_stock_add_active.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_stock_add_active.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_end_edit_looper_items.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_button_end_edit_looper_items.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__textfield_searchview_holo_dark.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__textfield_searchview_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\redstar_button.png",
@@ -20,44 +12,12 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_list_section_header_background.9.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\add_response_activ.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\add_response_activ.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_bg_unselected.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\tab_bg_unselected.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\greystar_button.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\greystar_button.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_add_stock_to_looper_from_stock_page.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_add_stock_to_looper_from_stock_page.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_picker_item_background.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_picker_item_background.xml"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\m.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\m.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\m1.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\m1.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background_selected.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_like_background_selected.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_splash_new.9.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\bg_splash_new.9.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_place_default_icon.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_place_default_icon.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__activated_background_holo_dark.xml",
@@ -76,72 +36,44 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\tab_bg_selector.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_grey_focused.9.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_grey_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_monthly.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_monthly.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__search_dropdown_dark.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__search_dropdown_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_splash_new_no_patch.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\bg_splash_new_no_patch.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__ic_menu_moreoverflow_holo_dark.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__ic_menu_moreoverflow_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\reduce.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\reduce.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_grey_pressed.9.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_grey_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_add_stock_to_looper_grey_star.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_add_stock_to_looper_grey_star.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_back_big_active.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_back_big_active.png"
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_grey_pressed.9.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_grey_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\red_star_small_for_list.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\red_star_small_for_list.png"
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_back_big_active.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_back_big_active.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\redstar_button_pressed.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\redstar_button_pressed.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_play_old.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\tv_play_old.png"
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_logout.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_logout.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_daily.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_daily.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_logout.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_logout.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\globes_search.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\globes_search.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_like_background.png"
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_play_old.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\tv_play_old.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_item_duns100.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\menu_item_duns100.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_like_background.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__list_selector_holo_light.xml",
@@ -156,56 +88,20 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\lupa.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_picker_list_selector.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_picker_list_selector.xml"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\enlarge_activ.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\enlarge_activ.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_picker_list_focused.9.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_picker_list_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_top_background.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_top_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\pagination.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\pagination.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__list_selector_holo_dark.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__ic_clear.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__ic_clear.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\close_ad.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\close_ad.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_stock_cncl_active.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_stock_cncl_active.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_picker_list_longpressed.9.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_picker_list_longpressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_icon.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_like_icon.png"
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_pause.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\drawable\\ic_pause.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\separator.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\separator.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_grey_normal.9.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_grey_normal.9.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__item_background_holo_dark.xml",
@@ -216,112 +112,76 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_back_big.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\turn_iphone.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\turn_iphone.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_blue_pressed.9.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_blue_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_divider.9.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\tab_divider.9.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_close.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_button_close.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_edit_looper_items.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_button_edit_looper_items.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\arrowsmallright.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\arrowsmallright.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_stock_cncl.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_stock_cncl.png"
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_divider.9.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\tab_divider.9.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__item_background_holo_light.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\panel.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\panel.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\share.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\share.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\bgboxemph.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\bgboxemph.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_profile_picture_blank_portrait.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_profile_picture_blank_portrait.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_blue_normal.9.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_blue_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_button_background.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\cancel_button_background.xml"
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_play_indicator.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\drawable\\ic_play_indicator.xml"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_daily_activ.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_daily_activ.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\pinkdot.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\pinkdot.png"
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__textfield_searchview_right_holo_dark.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__textfield_searchview_right_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__activated_background_holo_light.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__activated_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__textfield_searchview_right_holo_dark.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__textfield_searchview_right_holo_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__textfield_searchview_right_holo_light.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__textfield_searchview_right_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\next_active.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\next_active.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\stub.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\stub.png"
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bar_design.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\drawable\\progress_bar_design.xml"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\bgboxsmall.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\bgboxsmall.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_circle_small_article_opinion.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\ic_circle_small_article_opinion.png"
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_pause_indicator.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\drawable\\ic_pause_indicator.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_circle_small_article_opinion.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\ic_circle_small_article_opinion.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_share_share.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_share_share.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\splash.jpg",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\splash.jpg"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_close.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_close.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\splash.jpg",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\splash.jpg"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\searchbar.png",
@@ -332,16 +192,8 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\m2.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\white_with_black_border.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\white_with_black_border.xml"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_new_user.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_new_user.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_blue_focused.9.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_blue_focused.9.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_pressed.png",
@@ -352,88 +204,16 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\tab_text_selector.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\outbrain_logo.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\outbrain_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_profile_picture_blank_square.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_profile_picture_blank_square.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\add_response.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\add_response.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__progress_horizontal_holo_light.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__progress_horizontal_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\header_instruments_shares.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\header_instruments_shares.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_blue.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_blue.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\forward.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\forward.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\transparent.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\transparent.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_markets_list_from_about.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_button_markets_list_from_about.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__spinner_ab_holo_dark.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__spinner_ab_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__progress_horizontal_holo_dark.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__progress_horizontal_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_add_stock_to_looper_red_star.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_add_stock_to_looper_red_star.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\arrowsmall.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\arrowsmall.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_yearly.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_yearly.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\shadow.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_inverse_icon.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_inverse_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\portal_financial_search.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\portal_financial_search.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_item_sponser.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\menu_item_sponser.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable\\common_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_top_button.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_top_button.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\logo.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_list_divider.9.png",
@@ -448,24 +228,12 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_new_user_active.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_loginbutton_silver.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_loginbutton_silver.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_search.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_search.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__ic_clear_holo_light.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__ic_clear_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_login.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\pagination_pressed.png",
@@ -476,10 +244,6 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_like.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_delete_looper_item.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_delete_looper_item.xml"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\new_ver_app_update.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\new_ver_app_update.png"
     },
@@ -488,24 +252,12 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\viewpageindicator\\unspecified\\res\\drawable\\vpi__tab_indicator.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\greystar_button_pressed.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\greystar_button_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_item_feeder.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\menu_item_feeder.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_play.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\tv_play.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_check.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_check.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_weekly_activ.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_weekly_activ.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_icon_selected.png",
@@ -520,32 +272,12 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\share_activ.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\grey_star_small_for_list.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\grey_star_small_for_list.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_logout_active.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_logout_active.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\stub_image_not_found.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\stub_image_not_found.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__btn_cab_done_holo_dark.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__btn_cab_done_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\bgbox.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\bgbox.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_item_btn_search.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\menu_item_btn_search.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\backward_activ.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\backward_activ.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login_active.png",
@@ -564,6 +296,382 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_picker_list_selector_background_transition.xml"
     },
     {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\globes_title_backgroud.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\globes_title_backgroud.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_stock_add.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_stock_add.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\panel_landscape.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\panel_landscape.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_weekly.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_weekly.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__search_dropdown_light.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__search_dropdown_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_six_months_activ.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_six_months_activ.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_yearly_activ.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_yearly_activ.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\m4.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\m4.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_shares_list_from_about.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_button_shares_list_from_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\transparent_pin.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\drawable\\transparent_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\m3.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\m3.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_picker_top_button.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_picker_top_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_six_months.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_six_months.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\reduce_activ.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\reduce_activ.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_logo.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__textfield_searchview_holo_light.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__textfield_searchview_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__tab_indicator_ab_holo.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__tab_indicator_ab_holo.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_stock_add_active.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_stock_add_active.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__textfield_searchview_holo_dark.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__textfield_searchview_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\add_response_activ.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\add_response_activ.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\greystar_button.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\greystar_button.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_add_stock_to_looper_from_stock_page.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_add_stock_to_looper_from_stock_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_picker_item_background.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_picker_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\m1.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\m1.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background_selected.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_like_background_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_splash_new.9.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\bg_splash_new.9.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_place_default_icon.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_place_default_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_grey_focused.9.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_grey_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_monthly.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_monthly.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__search_dropdown_dark.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__search_dropdown_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_splash_new_no_patch.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\bg_splash_new_no_patch.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\reduce.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\reduce.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\red_star_small_for_list.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\red_star_small_for_list.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\globes_search.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\globes_search.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_picker_list_selector.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_picker_list_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_picker_list_focused.9.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_picker_list_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_top_background.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_top_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\pagination.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\pagination.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__ic_clear.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__ic_clear.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_stock_cncl_active.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_stock_cncl_active.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\close_ad.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\close_ad.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_picker_list_longpressed.9.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_picker_list_longpressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_icon.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_like_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_grey_normal.9.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_grey_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\turn_iphone.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\turn_iphone.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_edit_looper_items.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_button_edit_looper_items.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\arrowsmallright.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\arrowsmallright.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_stock_cncl.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_stock_cncl.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\panel.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\panel.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\bgboxemph.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\bgboxemph.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_profile_picture_blank_portrait.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_profile_picture_blank_portrait.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_button_background.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\cancel_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\pinkdot.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\pinkdot.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\next_active.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\next_active.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\stub.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\stub.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\white_with_black_border.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\white_with_black_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_blue_focused.9.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_blue_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\outbrain_logo.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\outbrain_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_profile_picture_blank_square.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_profile_picture_blank_square.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__progress_horizontal_holo_light.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__progress_horizontal_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\header_instruments_shares.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\header_instruments_shares.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\forward.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\forward.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_blue.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\transparent.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\transparent.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_markets_list_from_about.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_button_markets_list_from_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__spinner_ab_holo_dark.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__spinner_ab_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_play_pressed.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\drawable\\ic_play_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\arrowsmall.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\arrowsmall.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_add_stock_to_looper_red_star.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_add_stock_to_looper_red_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_yearly.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_yearly.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_inverse_icon.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_inverse_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\portal_financial_search.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\portal_financial_search.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable\\common_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_top_button.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_top_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_loginbutton_silver.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_loginbutton_silver.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_search.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_search.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_login.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_pause_pressed.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\drawable\\ic_pause_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_delete_looper_item.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_delete_looper_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\greystar_button_pressed.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\greystar_button_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_item_feeder.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\menu_item_feeder.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\brand_icon.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\drawable\\brand_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_weekly_activ.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_weekly_activ.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\stub_image_not_found.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\stub_image_not_found.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\grey_star_small_for_list.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\grey_star_small_for_list.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__btn_cab_done_holo_dark.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__btn_cab_done_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\bgbox.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\bgbox.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_play.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\drawable\\ic_play.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\backward_activ.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\backward_activ.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_spinner.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\drawable\\loading_spinner.png"
+    },
+    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_usersettingsfragment_background_gradient.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_usersettingsfragment_background_gradient.xml"
     },
@@ -580,28 +688,12 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_picker_list_selector_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\globes_title_backgroud.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\globes_title_backgroud.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_stock_add.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\btn_stock_add.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_check_on.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_button_check_on.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\panel_landscape.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\panel_landscape.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_dark.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable\\common_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_weekly.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_weekly.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_monthly_activ.png",
@@ -614,22 +706,6 @@
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_dark.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable\\common_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__search_dropdown_light.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__search_dropdown_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_yearly_activ.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_yearly_activ.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_six_months_activ.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_six_months_activ.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\m4.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\m4.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\first_to_tell.png",
@@ -664,10 +740,6 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__btn_cab_done_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_shares_list_from_about.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\selector_button_shares_list_from_about.xml"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_play_activ.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_play_activ.png"
     },
@@ -676,36 +748,12 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\stockup.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\m3.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\m3.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_light.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable\\common_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_picker_top_button.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_picker_top_button.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\button_six_months.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\button_six_months.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\backward.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\backward.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\reduce_activ.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\reduce_activ.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_logo.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable\\com_facebook_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__textfield_searchview_holo_light.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__textfield_searchview_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__spinner_ab_holo_light.xml",
@@ -714,10 +762,6 @@
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable\\arrow.png"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__tab_indicator_ab_holo.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\drawable\\abs__tab_indicator_ab_holo.xml"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_bg_selected.xml",

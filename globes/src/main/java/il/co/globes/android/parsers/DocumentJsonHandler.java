@@ -92,6 +92,8 @@ public class DocumentJsonHandler {
                 parsedDocument.setClipURL(getValue(jDocumentNode, "f4", ""));
                 parsedDocument.setEmbeddedClip(getValue(jDocumentNode, "embedded_clip", ""));
 
+                parsedDocument.setClipVUrl(getValue(jDocumentNode, "clip_vurl", ""));
+
                 //Log.e("alex", "GGET VIDEO URL 1:" + jDocumentNode.toString());
                 //Log.e("alex", "GGET VIDEO URL 2:" + getValue(jDocumentNode, "f3", ""));
 

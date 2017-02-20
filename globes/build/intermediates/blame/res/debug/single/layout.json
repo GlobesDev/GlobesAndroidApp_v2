@@ -192,12 +192,20 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\layout\\pushapps_action_buttons2.xml"
     },
     {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\fake_activity.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\AMSDK\\res\\layout\\fake_activity.xml"
+    },
+    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\pushapps_action_buttons2_rtl.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\layout\\pushapps_action_buttons2_rtl.xml"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\article_duns_100_layout.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\layout\\article_duns_100_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\player_bar.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\layout\\player_bar.xml"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\abs__activity_chooser_view_list_item.xml",
@@ -376,6 +384,10 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\layout\\row_layout_header_forex.xml"
     },
     {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\ad_frame.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\AMSDK\\res\\layout\\ad_frame.xml"
+    },
+    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\pushapps_activity.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\layout\\pushapps_activity.xml"
     },
@@ -442,6 +454,10 @@
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\responsesheader_layout.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\layout\\responsesheader_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\popup_loading.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\layout\\popup_loading.xml"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\layout_about_activity.xml",
@@ -564,6 +580,10 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\layout\\share_title.xml"
     },
     {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\progress_bar.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\layout\\progress_bar.xml"
+    },
+    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\list.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\layout\\list.xml"
     },
@@ -578,6 +598,10 @@
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\play_video_activity_layout.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\layout\\play_video_activity_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\video_activity.xml",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\ArtiPlayer\\res\\layout\\video_activity.xml"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\layout_document_landscape.xml",
@@ -610,10 +634,6 @@
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\a_test_new_row_layout.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\layout\\a_test_new_row_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\sherlock_spinner_item.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\layout\\sherlock_spinner_item.xml"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\abs__list_menu_item_icon.xml",
@@ -718,10 +738,6 @@
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\abs__action_bar_tab.xml",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\layout\\abs__action_bar_tab.xml"
-    },
-    {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\sherlock_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\actionbarsherlock\\unspecified\\res\\layout\\sherlock_spinner_dropdown_item.xml"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",

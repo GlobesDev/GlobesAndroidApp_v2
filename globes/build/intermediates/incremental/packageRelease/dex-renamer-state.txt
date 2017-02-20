@@ -1,4 +1,4 @@
-#Sun Feb 05 15:35:41 IST 2017
+#Mon Feb 20 10:54:29 IST 2017
 base.0=C\:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
 renamed.1=classes2.dex
 renamed.0=classes.dex

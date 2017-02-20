@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId "il.co.globes.android"
-        minSdkVersion 11 //to be compliant with view page indicator
+        minSdkVersion 15 //to be compliant with view page indicator
         targetSdkVersion 21
         // Enabling multidex support.
         multiDexEnabled true
@@ -60,4 +60,7 @@ dependencies {
     }
     compile 'com.android.support:support-v4:21.0.0'
     compile files('libs/spotim_sdk_v1.3.jar')
+
+    compile(name:'AMSDK', ext:'aar')
+    compile(name:'ArtiPlayer', ext:'aar')
 }

@@ -46,6 +46,7 @@ retrofit/http/RestMethod.class
 com/google/android/gms/internal/zzhj.class
 il/co/globes/android/Definitions$ArticleType.class
 com/google/c/b/m.class
+net/artimedia/artiplayer/AMVideoActivity$6.class
 com/google/android/gms/internal/zzgg.class
 il/co/globes/android/CompanyActivity$myWebViewClient.class
 com/google/ads/mediation/customevent/CustomEventInterstitial.class
@@ -88,10 +89,12 @@ il/co/globes/android/TermsOfUse$OB_Client.class
 net/tensera/sdk/api/l$2.class
 il/co/globes/android/CompanyActivity$5.class
 javax/inject/Inject.class
+net/artimedia/amsdk/impl/utils/AMFormatter.class
 il/co/globes/android/DocumentActivity_new$24.class
 com/woorlds/woorldssdk/server/CaptiveData$CaptiveDataHop.class
 il/co/globes/android/MainSlidingActivity$14.class
 com/jeremyfeinstein/slidingmenu/lib/app/SlidingFragmentActivity.class
+net/artimedia/artiplayer/AMVideoActivity.class
 retrofit/http/QueryMap.class
 com/google/android/gms/internal/zzgb.class
 android/support/multidex/MultiDexExtractor$1.class
@@ -251,6 +254,7 @@ il/co/globes/android/R$string.class
 com/google/android/gms/ads/internal/zzh.class
 il/co/globes/android/MainActivity$13.class
 com/woorlds/woorldssdk/WoorldsLocationController$1.class
+net/artimedia/artiplayer/AMVideoActivity$1.class
 il/co/globes/android/DocumentActivity_new$initAjillionView.class
 com/google/ads/interactivemedia/v3/a/a/e.class
 com/google/ads/interactivemedia/v3/impl/k.class
@@ -274,6 +278,7 @@ mobi/pushapps/gcm/PARegistrationIntentService.class
 com/woorlds/woorldssdk/WoorldsService$7.class
 com/google/ads/mediation/MediationAdRequest.class
 net/tensera/sdk/utils/b/d.class
+net/artimedia/amsdk/api/AMSDK.class
 com/google/ads/interactivemedia/v3/impl/l$a.class
 org/apache/commons/io/IOUtils.class
 com/google/android/gms/gcm/GcmReceiver.class
@@ -302,6 +307,7 @@ il/co/globes/android/SharesListActivity$4.class
 retrofit/RestAdapter$LogLevel.class
 il/co/globes/android/objects/Tagit.class
 il/co/globes/android/R.class
+net/artimedia/artiplayer/AMVideoActivity$2.class
 com/google/android/gms/internal/zzeu.class
 com/google/android/gms/cast/Cast$CastApi$zza.class
 com/facebook/Request.class
@@ -381,6 +387,7 @@ il/co/globes/android/DocumentActivity_new$33.class
 com/google/android/gms/internal/zzex.class
 dagger/Component.class
 com/facebook/Settings.class
+il/co/globes/android/DocumentActivity_new$52.class
 net/tensera/sdk/network/i.class
 il/co/globes/android/DocumentActivity_new$19.class
 com/google/ads/interactivemedia/v3/api/CompanionAdSlot.class
@@ -406,6 +413,7 @@ retrofit/RestAdapter$Builder.class
 mobi/pushapps/external/PAPushWooshManager.class
 com/actionbarsherlock/internal/view/menu/ActionMenuPresenter.class
 com/google/gson/reflect/TypeToken.class
+net/artimedia/artiplayer/AMVideoActivity$10.class
 com/google/android/gms/nearby/sharing/SharedContent.class
 com/google/android/gms/internal/zzdp.class
 com/google/android/gms/location/zze.class
@@ -476,6 +484,7 @@ il/co/globes/android/MainActivity$GetDataTask.class
 il/co/globes/android/ShareActivity$12.class
 com/facebook/SessionDefaultAudience.class
 com/google/android/gms/ads/internal/zzm.class
+net/artimedia/amsdk/api/AMEventListener.class
 com/google/ads/interactivemedia/v3/a/n.class
 mobi/pushapps/events/PASyncEventsReceiver$1.class
 il/co/globes/android/objects/CustomWebView.class
@@ -486,6 +495,7 @@ com/actionbarsherlock/internal/view/menu/MenuItemWrapper.class
 com/google/android/gms/wearable/ChannelApi.class
 com/woorlds/woorldssdk/WoorldsService$2.class
 com/woorlds/woorldssdk/server/LoginInfo.class
+net/artimedia/amsdk/impl/constants/AMGlobalVars.class
 com/google/android/gms/internal/zzdf.class
 android/support/v4/widget/MaterialProgressDrawable$Ring.class
 com/woorlds/woorldssdk/client/LocationData.class
@@ -575,6 +585,7 @@ com/actionbarsherlock/internal/view/menu/MenuItemImpl.class
 com/google/ads/interactivemedia/v3/api/AdEvent$AdEventListener.class
 android/support/v4/widget/MaterialProgressDrawable$1.class
 com/facebook/Session$SerializationProxyV1.class
+il/co/globes/android/DocumentActivity_new$51.class
 org/apache/commons/io/FileSystemUtils.class
 net/tensera/sdk/viewer/ViewerTabKeeper$IWebSettingsSetter.class
 com/outbrain/OBSDK/Entities/OBRecommendation.class
@@ -614,6 +625,7 @@ retrofit/RetrofitError.class
 com/sekindo/ads/SekindoLastPreloaderActivity.class
 il/co/globes/android/interfaces/WallaAdvTaskCompleted.class
 net/tensera/sdk/reports/b.class
+net/artimedia/amsdk/R.class
 com/google/android/gms/ads/AdRequest.class
 com/facebook/model/PropertyName.class
 com/google/android/gms/ads/doubleclick/PublisherAdRequest.class
@@ -632,6 +644,7 @@ com/actionbarsherlock/internal/view/menu/MenuPresenter.class
 net/tensera/sdk/reports/a.class
 android/support/v4/app/FragmentManager$OnBackStackChangedListener.class
 il/co/globes/android/DocumentActivity_new$39.class
+net/artimedia/amsdk/api/AMInitParams.class
 il/co/globes/android/app/lifecycle/Foreground.class
 retrofit/http/FormUrlEncoded.class
 net/tensera/utils/ThreadsBase.class
@@ -693,6 +706,7 @@ com/google/android/gms/internal/zzer.class
 il/co/globes/android/FinancialPortalActivity.class
 il/co/globes/android/ShareActivity$5.class
 com/actionbarsherlock/ActionBarSherlock$OnMenuItemSelectedListener.class
+net/artimedia/amsdk/impl/activities/fake/AMFakeActivityUUIDSendServiceLauncher.class
 com/actionbarsherlock/R$styleable.class
 com/facebook/Session$1.class
 android/support/annotation/RawRes.class
@@ -708,6 +722,7 @@ android/support/v4/widget/MaterialProgressDrawable$3.class
 com/google/android/gms/internal/zzif.class
 il/co/globes/android/ima/v3/player/PlayerImaActivity$VideoDescriptionFragment.class
 com/facebook/HttpMethod.class
+net/artimedia/amsdk/R$layout.class
 net/tensera/sdk/api/j.class
 il/co/globes/android/DocumentActivity_new$13.class
 mobi/pushapps/PAPopup.class
@@ -804,6 +819,7 @@ com/facebook/Session.class
 com/facebook/FacebookAuthorizationException.class
 android/support/annotation/ArrayRes.class
 com/google/android/gms/internal/zzhm.class
+net/artimedia/artiplayer/AMVideoActivity$9.class
 org/apache/commons/io/output/LockableFileWriter.class
 com/google/android/gms/internal/zzfu.class
 il/co/globes/android/objects/Tikim.class
@@ -843,6 +859,7 @@ com/facebook/RequestAsyncTask.class
 com/squareup/picasso/Callback.class
 il/co/globes/android/NewLoginActivity$9.class
 com/loopj/android/http/TextHttpResponseHandler.class
+net/artimedia/artiplayer/R$id.class
 com/google/ads/mediation/MediationServerParameters$Parameter.class
 net/tensera/sdk/viewer/ProxyWebViewClient.class
 android/support/annotation/MenuRes.class
@@ -862,9 +879,11 @@ net/tensera/sdk/prefetching/o.class
 il/co/globes/android/RowAdActivity.class
 com/google/android/gms/wallet/Address.class
 il/co/globes/android/VideoWebViewActivity$1.class
+net/artimedia/amsdk/impl/constants/AMConstants.class
 com/google/android/gms/internal/zzhb$zza.class
 net/tensera/sdk/d/a.class
 il/co/globes/android/TermsOfUse$1.class
+net/artimedia/artiplayer/AMVideoActivity$8.class
 com/woorlds/woorldssdk/server/Response.class
 il/co/globes/android/DocumentActivity_new$30.class
 il/co/globes/android/MainSlidingActivity$3.class
@@ -921,6 +940,7 @@ com/actionbarsherlock/app/ActionBar$LayoutParams.class
 com/google/b/a.class
 com/squareup/picasso/Downloader$Response.class
 com/google/android/gms/iid/zzb.class
+net/artimedia/artiplayer/R.class
 il/co/globes/android/TickerItemsAdapter.class
 net/tensera/sdk/reports/m.class
 com/google/ads/interactivemedia/v3/api/player/VideoAdPlayer.class
@@ -944,6 +964,7 @@ com/google/android/gms/internal/zzhh.class
 il/co/globes/android/ShareActivity$4.class
 com/google/android/gms/analytics/ecommerce/ProductAction.class
 com/google/android/gms/games/achievement/Achievement.class
+net/artimedia/artiplayer/AMVideoActivity$4.class
 com/google/ads/interactivemedia/v3/a/a/b.class
 com/facebook/LoginActivity.class
 com/facebook/Session$StatusCallback.class
@@ -955,11 +976,13 @@ android/support/v4/util/ContainerHelpers.class
 il/co/globes/android/SharesListActivity$3.class
 android/support/annotation/NonNull.class
 mobi/pushapps/utils/PADeviceUtils.class
+net/artimedia/amsdk/api/AMContentState.class
 com/google/android/gms/internal/zzlk.class
 com/google/android/gms/ads/internal/request/zzb.class
 il/co/globes/android/DocumentActivity_new$7.class
 il/co/globes/android/RowAdActivity$1.class
 com/facebook/Session$OpenRequest.class
+net/artimedia/artiplayer/AMVideoActivity$11.class
 il/co/globes/android/SharesListActivity.class
 mobi/pushapps/utils/PAStringUtils.class
 com/woorlds/woorldssdk/WoorldsService$WoorldsServiceBinder.class
@@ -984,6 +1007,7 @@ com/google/android/gms/internal/zzgj.class
 com/google/ads/interactivemedia/v3/a/a/c.class
 com/google/android/gms/internal/zzfq.class
 il/co/globes/android/SectionListActivity.class
+net/artimedia/amsdk/impl/utils/AMNetworkUtil.class
 com/google/android/gms/ads/internal/client/zzd.class
 com/facebook/Session$2.class
 net/tensera/sdk/config/ad.class
@@ -1015,6 +1039,7 @@ net/tensera/sdk/a/r$a.class
 dagger/Subcomponent.class
 com/google/android/gms/internal/zzdy.class
 android/support/v4/app/FragmentContainer.class
+net/artimedia/artiplayer/AMVideoActivity$3.class
 com/woorlds/woorldssdk/client/ExtendedData.class
 android/support/v4/app/FragmentManagerImpl$5.class
 com/google/android/gms/ads/internal/purchase/zzi.class
@@ -1025,6 +1050,7 @@ il/co/globes/android/fragments/ListOpinionsFragment.class
 com/appsflyer/AppsFlyerLib.class
 net/tensera/sdk/utils/c/c.class
 com/google/android/gms/internal/zzel.class
+net/artimedia/amsdk/impl/service/AMUUIDSendService.class
 a/a/a.class
 android/support/v4/widget/CursorAdapter.class
 tv/justad/sdk/view/JustAdView.class
@@ -1041,6 +1067,7 @@ com/google/c/b/ak.class
 com/google/android/gms/ads/internal/reward/mediation/client/RewardItemParcel.class
 il/co/globes/android/MainSlidingActivity$10.class
 com/google/android/gms/internal/zzcf.class
+net/artimedia/artiplayer/AMVideoActivity$5.class
 android/support/v4/app/FragmentManagerImpl$4.class
 com/google/android/gms/internal/zzgf.class
 net/tensera/sdk/api/p.class
@@ -1110,6 +1137,7 @@ com/google/android/gms/internal/zzeb.class
 com/google/android/gms/fitness/data/DataType.class
 il/co/globes/android/R$xml.class
 com/google/android/gms/maps/GoogleMap.class
+net/artimedia/artiplayer/AMVideoActivity$7.class
 com/google/android/gms/wallet/WalletConstants$CardNetwork.class
 net/tensera/sdk/b/d.class
 com/google/ads/interactivemedia/v3/api/AdsManager.class
@@ -1222,6 +1250,7 @@ com/squareup/picasso/Picasso.class
 com/facebook/AuthorizationClient$Result$Code.class
 com/google/android/gms/ads/search/SearchAdRequest.class
 com/crashlytics/android/internal/l.class
+net/artimedia/amsdk/impl/utils/AMLog.class
 android/support/annotation/AttrRes.class
 com/google/android/gms/location/places/internal/PlaceLocalization.class
 com/google/android/gms/internal/zzej.class
@@ -1229,6 +1258,7 @@ net/tensera/sdk/gcm/GcmBroadcastReceiver.class
 android/support/v4/view/ViewCompat$ImportantForAccessibility.class
 com/google/android/gms/appindexing/AppIndexApi$ActionResult.class
 com/google/android/gms/common/data/AbstractDataBuffer.class
+net/artimedia/artiplayer/R$layout.class
 com/google/android/gms/internal/zzct.class
 com/google/android/gms/appindexing/AppIndexApi$AppIndexingLink.class
 il/co/globes/android/VideoActivity$1.class
@@ -1259,6 +1289,7 @@ com/woorlds/woorldssdk/WoorldsSDK.class
 uk/co/senab/actionbarpulltorefresh/library/PullToRefreshLayout.class
 il/co/globes/android/R$menu.class
 android/support/annotation/FractionRes.class
+net/artimedia/artiplayer/a/a.class
 android/support/v4/app/BackStackRecord$TransitionState.class
 android/support/annotation/PluralsRes.class
 com/facebook/AccessToken.class
@@ -1286,11 +1317,13 @@ il/co/globes/android/PushRegistrationHelper.class
 com/google/ads/interactivemedia/v3/api/AdsLoader$AdsLoadedListener.class
 il/co/globes/android/MainActivity$1.class
 com/actionbarsherlock/internal/view/menu/MenuBuilder.class
+il/co/globes/android/objects/ArticleGalleryObject.class
 net/tensera/sdk/fetch/a.class
 il/co/globes/android/MainSlidingActivity$16.class
 il/co/globes/android/MainActivity$2.class
 il/co/globes/android/DocumentActivity_new$42.class
 com/google/android/gms/games/event/Event.class
+net/artimedia/amsdk/api/AMEventType.class
 com/google/android/gms/games/quest/Quest.class
 com/facebook/Session$AutoPublishAsyncTask.class
 mobi/pushapps/models/PANotification$PANotificationType.class
@@ -1318,6 +1351,7 @@ dagger/MapKey.class
 mobi/pushapps/exceptions/PANotificationMissingIdException.class
 com/google/android/gms/maps/SupportStreetViewPanoramaFragment.class
 il/co/globes/android/MainActivity$3.class
+net/artimedia/amsdk/api/AMSDKAPI.class
 il/co/globes/android/MainSlidingActivity$17.class
 com/actionbarsherlock/internal/nineoldandroids/widget/NineFrameLayout.class
 com/google/android/gms/drive/DriveStatusCodes.class

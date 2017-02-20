@@ -12,12 +12,12 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable-hdpi\\delete_looper_item.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\closed_button1_320_480.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable-hdpi\\closed_button1_320_480.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\closed_button1_640_960.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable-hdpi\\closed_button1_640_960.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\closed_button1_320_480.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable-hdpi\\closed_button1_320_480.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\stock_button.png",
@@ -128,12 +128,12 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable-hdpi\\main.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\about.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable-hdpi\\about.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\stock_button_pressed.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable-hdpi\\stock_button_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\about.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\src\\main\\res\\drawable-hdpi\\about.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\arrow_down_comment.png",

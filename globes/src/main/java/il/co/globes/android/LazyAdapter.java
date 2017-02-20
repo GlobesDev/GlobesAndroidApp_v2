@@ -1249,72 +1249,71 @@ public class LazyAdapter extends BaseAdapter implements WallaAdvTaskCompleted
 				final DfpAdHolder adHolder = ((DfpAdHolder) (newsSet.elementAt(position)));
 				rowView = inflater.inflate(R.layout.row_layout_dfp_ad_view, null);
 				final RelativeLayout frameLayout = (RelativeLayout) rowView.findViewById(R.id.row_layout_dfp_adview_frame_layout_container);
-				AdLoader adLoader = new AdLoader.Builder(activity.getApplicationContext(), adHolder.getAdUnitID())  // /6499/example/native" === 10063170
-						.forCustomTemplateAd(Definitions.dfp_articles_template_id,
-								new NativeCustomTemplateAd.OnCustomTemplateAdLoadedListener() {
-									@Override
-									public void onCustomTemplateAdLoaded(final NativeCustomTemplateAd ad) {
 
-										View rowView = drawDFPSponsoredArticle(ad);
+				Log.e("alex", "KatavaPirsumit Nadlan:" + adHolder.getAdUnitID() + "===" + adHolder.getAdSize());
 
-//										List<String> lst = ad.getAvailableAssetNames();
-//
-//										for (String s:lst) {
-//											Log.e("alex", "onCustomTemplateAdLoaded!!! Field: " + s + "===" + ad.getText(s));
-//										}
-//
-//
-//										View rowView = inflater.inflate(R.layout.row_layout_new, null);
-//
-//										holder.text = (TextView) rowView.findViewById(R.id.title);
-//										holder.image = (ImageView) rowView.findViewById(R.id.image);
-//										holder.createdOn = (TextView) rowView.findViewById(R.id.createdOn);
-//										rowView.setTag(holder);
-//
-//										holder.text.setText(ad.getText("headline"));
-//										holder.text.setTypeface(almoni_aaa_regular);
-//										holder.text.setTextSize(22.5f);
-//										holder.text.setTextColor(Color.BLACK);
-//										holder.createdOn.setText("");
-//
-//										holder.image.setImageDrawable(ad.getImage("MainImage").getDrawable());
-//
-//										holder.image.setOnClickListener(new View.OnClickListener() {
-//											@Override
-//											public void onClick(View v) {
-//												ad.performClick("MainImage");
-//											}
-//										});
-//
-//										holder.text.setOnClickListener(new View.OnClickListener() {
-//											@Override
-//											public void onClick(View v) {
-//												ad.performClick("headline");
-//											}
-//										});
+				holder.AdViewKatavaPirsumitMainListPublisher = new PublisherAdView(activity);
+				holder.AdViewKatavaPirsumitMainListPublisher.setAdUnitId(adHolder.getAdUnitID());
+				holder.AdViewKatavaPirsumitMainListPublisher.setAdSizes(adHolder.getAdSize());
 
-										ad.recordImpression();
+				//frameLayout.setBackgroundColor(Color.RED);
 
-										rlSponsoredArticles = frameLayout;
-										((ViewGroup) rlSponsoredArticles).addView(rowView);
-									}
-								},
-								null)
-//								.forContentAd(new NativeContentAd.OnContentAdLoadedListener() {
+				frameLayout.addView(holder.AdViewKatavaPirsumitMainListPublisher, RelativeLayout.LayoutParams.MATCH_PARENT,	RelativeLayout.LayoutParams.WRAP_CONTENT);
+
+				//frameLayout.addView(holder.AdViewKatavaPirsumitMainListPublisher, RelativeLayout.LayoutParams.MATCH_PARENT,	375);
+
+				holder.AdViewKatavaPirsumitMainListPublisher.setAdListener(new AdListener()
+				{
+					public void onAdLoaded()
+					{
+						Log.e("alex", "KatavaPirsumit onAdLoaded");
+
+						Log.d(TAG,	"LazyAdapter Ad received from TYPE_DFP_AD_VIEW_KATAVA_PIRSUMIT_MAIN_LIST at Activity : " + activity.toString());
+						holder.AdViewKatavaPirsumitMainListPublisher.setVisibility(View.VISIBLE);
+					}
+					public void onAdFailedToLoad(int errorCode)
+					{
+						Log.e("alex", "KatavaPirsumit onAdFailedToLoad:" + errorCode + "===" + adHolder.getAdUnitID());
+
+						Log.d(TAG,"Ad failed to receive on TYPE_DFP_AD_VIEW_KATAVA_PIRSUMIT_MAIN_LIST at Activity : " + activity.toString()+ " error is: " + errorCode);
+						holder.AdViewKatavaPirsumitMainListPublisher.setVisibility(View.GONE);
+						//frameLayout.removeView(holder.AdViewKatavaPirsumitMainListPublisher);
+					}
+				});
+
+				PublisherAdRequest request = new PublisherAdRequest.Builder().build();
+				holder.AdViewKatavaPirsumitMainListPublisher.loadAd(request);
+
+
+//				AdLoader adLoader = new AdLoader.Builder(activity.getApplicationContext(), adHolder.getAdUnitID())  // /6499/example/native" === 10063170
+//						.forCustomTemplateAd(Definitions.dfp_articles_template_id,
+//								new NativeCustomTemplateAd.OnCustomTemplateAdLoadedListener() {
 //									@Override
-//									public void onContentAdLoaded(NativeContentAd ad) {
-//										Log.e("alex", "onCustomTemplateAdLoaded 2!!!");
+//									public void onCustomTemplateAdLoaded(final NativeCustomTemplateAd ad) {
+//
+//										View rowView = drawDFPSponsoredArticle(ad);
+//										ad.recordImpression();
+//
+//										rlSponsoredArticles = frameLayout;
+//										((ViewGroup) rlSponsoredArticles).addView(rowView);
 //									}
-//								})
-						.withAdListener(new AdListener() {
-							@Override
-							public void onAdFailedToLoad(int errorCode) {
-								Log.e("alex", "onCustomTemplateAdLoaded onAdFailedToLoad:" + errorCode);
-							}
-						})
-						.build();
-
-				adLoader.loadAd(new PublisherAdRequest.Builder().build());
+//								},
+//								null)
+////								.forContentAd(new NativeContentAd.OnContentAdLoadedListener() {
+////									@Override
+////									public void onContentAdLoaded(NativeContentAd ad) {
+////										Log.e("alex", "onCustomTemplateAdLoaded 2!!!");
+////									}
+////								})
+//						.withAdListener(new AdListener() {
+//							@Override
+//							public void onAdFailedToLoad(int errorCode) {
+//								Log.e("alex", "onCustomTemplateAdLoaded onAdFailedToLoad:" + errorCode);
+//							}
+//						})
+//						.build();
+//
+//				adLoader.loadAd(new PublisherAdRequest.Builder().build());
 
 
 
@@ -1377,69 +1376,73 @@ public class LazyAdapter extends BaseAdapter implements WallaAdvTaskCompleted
 				{								
 	                if(Definitions.show_dfp_banners_on_splash_screen)
 	                {
-						Log.e("alex", "onCustomTemplateAdLoaded before start!!!");
+						Log.e("alex", "onCustomTemplateAdLoaded before start!!! ===" + adHolder.getAdUnitID() + "===" + adHolder.getAdSize());
+
+
+						holder.AdViewKatavaPirsumitMainListPublisher = new PublisherAdView(activity);
+						holder.AdViewKatavaPirsumitMainListPublisher.setAdUnitId(adHolder.getAdUnitID());
+						holder.AdViewKatavaPirsumitMainListPublisher.setAdSizes(adHolder.getAdSize());
+
+						//frameLayout.setBackgroundColor(Color.RED);
+
+						frameLayout.addView(holder.AdViewKatavaPirsumitMainListPublisher, RelativeLayout.LayoutParams.MATCH_PARENT,	RelativeLayout.LayoutParams.WRAP_CONTENT);
+
+						//frameLayout.addView(holder.AdViewKatavaPirsumitMainListPublisher, RelativeLayout.LayoutParams.MATCH_PARENT,	375);
+
+						holder.AdViewKatavaPirsumitMainListPublisher.setAdListener(new AdListener()
+						{
+							public void onAdLoaded()
+							{
+								Log.e("alex", "KatavaPirsumit onAdLoaded");
+
+								Log.d(TAG,	"LazyAdapter Ad received from TYPE_DFP_AD_VIEW_KATAVA_PIRSUMIT_MAIN_LIST at Activity : " + activity.toString());
+								holder.AdViewKatavaPirsumitMainListPublisher.setVisibility(View.VISIBLE);
+							}
+							public void onAdFailedToLoad(int errorCode)
+							{
+								Log.e("alex", "KatavaPirsumit onAdFailedToLoad:" + errorCode + "===" + adHolder.getAdUnitID());
+
+								Log.d(TAG,"Ad failed to receive on TYPE_DFP_AD_VIEW_KATAVA_PIRSUMIT_MAIN_LIST at Activity : " + activity.toString()+ " error is: " + errorCode);
+								holder.AdViewKatavaPirsumitMainListPublisher.setVisibility(View.GONE);
+								//frameLayout.removeView(holder.AdViewKatavaPirsumitMainListPublisher);
+							}
+						});
+
+						PublisherAdRequest request = new PublisherAdRequest.Builder().build();
+						holder.AdViewKatavaPirsumitMainListPublisher.loadAd(request);
+
 
 						//=====================================TEST CUSTOM DFP BANNER!!!=======================================//
 
-						AdLoader adLoader = new AdLoader.Builder(activity.getApplicationContext(), adHolder.getAdUnitID())  // /6499/example/native" === 10063170
-								.forCustomTemplateAd(Definitions.dfp_articles_template_id,
-										new NativeCustomTemplateAd.OnCustomTemplateAdLoadedListener() {
-											@Override
-											public void onCustomTemplateAdLoaded(final NativeCustomTemplateAd ad) {
-
-												View rowView = drawDFPSponsoredArticle(ad);
-
-//												View rowView = inflater.inflate(R.layout.row_layout_new, null);
-//												final ViewHolder holder = new ViewHolder();
-//												holder.text = (TextView) rowView.findViewById(R.id.title);
-//												holder.image = (ImageView) rowView.findViewById(R.id.image);
-//												holder.createdOn = (TextView) rowView.findViewById(R.id.createdOn);
-//												rowView.setTag(holder);
+//						AdLoader adLoader = new AdLoader.Builder(activity.getApplicationContext(), adHolder.getAdUnitID())  // /6499/example/native" === 10063170
+//								.forCustomTemplateAd(Definitions.dfp_articles_template_id,
+//										new NativeCustomTemplateAd.OnCustomTemplateAdLoadedListener() {
+//											@Override
+//											public void onCustomTemplateAdLoaded(final NativeCustomTemplateAd ad) {
 //
-//												holder.text.setText(ad.getText("headline"));
-//												holder.text.setTypeface(almoni_aaa_regular);
-//												holder.text.setTextSize(22.5f);
-//												holder.text.setTextColor(Color.BLACK);
-//												holder.createdOn.setText("");
+//												View rowView = drawDFPSponsoredArticle(ad);
+//												ad.recordImpression();
 //
-//												holder.image.setImageDrawable(ad.getImage("MainImage").getDrawable());
-//
-//												holder.image.setOnClickListener(new View.OnClickListener() {
-//													@Override
-//													public void onClick(View v) {
-//														ad.performClick("MainImage");
-//													}
-//												});
-//
-//												holder.text.setOnClickListener(new View.OnClickListener() {
-//													@Override
-//													public void onClick(View v) {
-//														ad.performClick("headline");
-//													}
-//												});
-
-												ad.recordImpression();
-
-												rlSponsoredArticles = frameLayout;
-												((ViewGroup) rlSponsoredArticles).addView(rowView);
-											}
-										},
-										null)
-//								.forContentAd(new NativeContentAd.OnContentAdLoadedListener() {
+//												rlSponsoredArticles = frameLayout;
+//												((ViewGroup) rlSponsoredArticles).addView(rowView);
+//											}
+//										},
+//										null)
+////								.forContentAd(new NativeContentAd.OnContentAdLoadedListener() {
+////									@Override
+////									public void onContentAdLoaded(NativeContentAd ad) {
+////										Log.e("alex", "onCustomTemplateAdLoaded 2!!!");
+////									}
+////								})
+//								.withAdListener(new AdListener() {
 //									@Override
-//									public void onContentAdLoaded(NativeContentAd ad) {
-//										Log.e("alex", "onCustomTemplateAdLoaded 2!!!");
+//									public void onAdFailedToLoad(int errorCode) {
+//										Log.e("alex", "onCustomTemplateAdLoaded onAdFailedToLoad:" + errorCode);
 //									}
 //								})
-								.withAdListener(new AdListener() {
-									@Override
-									public void onAdFailedToLoad(int errorCode) {
-										Log.e("alex", "onCustomTemplateAdLoaded onAdFailedToLoad:" + errorCode);
-									}
-								})
-								.build();
-
-						adLoader.loadAd(new PublisherAdRequest.Builder().build());
+//								.build();
+//
+//						adLoader.loadAd(new PublisherAdRequest.Builder().build());
 
 
 

@@ -9,4 +9,13 @@
     <dimen name="abs__action_button_min_width">64dip</dimen>
     <item name="abs__dialog_min_width_major" type="dimen">45%</item>
     <item name="abs__dialog_min_width_minor" type="dimen">72%</item>
+    <dimen name="progress_bar_margin_bottom">10dp</dimen>
+    <dimen name="progress_bar_margin_top">60dp</dimen>
+    <dimen name="progress_bar_maxHeight">16dp</dimen>
+    <dimen name="progress_bar_maxWidth">410dp</dimen>
+    <dimen name="progress_bar_minHeight">16dp</dimen>
+    <dimen name="progress_bar_minWidth">410dp</dimen>
+    <dimen name="progress_bar_padding_left">10dp</dimen>
+    <dimen name="progress_bar_padding_right">10dp</dimen>
+    <dimen name="txt_size_time">16sp</dimen>
 </resources>

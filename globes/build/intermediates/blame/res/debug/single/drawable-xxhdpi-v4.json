@@ -24,12 +24,12 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\common_signin_btn_icon_disabled_focus_light.9.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_icon_pressed_dark.9.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\common_signin_btn_icon_pressed_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_icon_pressed_light.9.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_icon_pressed_dark.9.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\common_signin_btn_icon_pressed_dark.9.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_background_selected.png",
@@ -84,24 +84,24 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\common_signin_btn_icon_disabled_light.9.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_plusone_tall_off_client.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\ic_plusone_tall_off_client.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_text_focus_light.9.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\common_signin_btn_text_focus_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\ic_plusone_tall_off_client.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_pressed.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable-xxhdpi-v4\\com_facebook_button_like_pressed.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_plusone_small_off_client.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\ic_plusone_small_off_client.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_icon_disabled_focus_dark.9.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\common_signin_btn_icon_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\ic_plusone_small_off_client.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_plusone_medium_off_client.png",
@@ -116,11 +116,11 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\powered_by_google_dark.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_icon.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable-xxhdpi-v4\\com_facebook_button_like_icon.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_text_focus_dark.9.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\common_signin_btn_text_focus_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_icon.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\facebooksdk\\unspecified\\res\\drawable-xxhdpi-v4\\com_facebook_button_like_icon.png"
     }
 ]

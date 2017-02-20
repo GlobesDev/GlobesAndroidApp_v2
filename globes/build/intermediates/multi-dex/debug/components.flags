@@ -226,6 +226,10 @@
     <init>();
 }
 
+-keep class net.artimedia.artiplayer.AMVideoActivity {
+    <init>();
+}
+
 -keep class net.tensera.sdk.gcm.PrefetchIntentService {
     <init>();
 }
@@ -251,6 +255,14 @@
 }
 
 -keep class net.tensera.sdk.utils.UpgradeReceiver {
+    <init>();
+}
+
+-keep class net.artimedia.amsdk.impl.activities.fake.AMFakeActivityUUIDSendServiceLauncher {
+    <init>();
+}
+
+-keep class net.artimedia.amsdk.impl.service.AMUUIDSendService {
     <init>();
 }
 

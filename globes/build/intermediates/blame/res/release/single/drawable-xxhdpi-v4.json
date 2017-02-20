@@ -12,12 +12,12 @@
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\common_signin_btn_text_disabled_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\ic_plusone_standard_off_client.png",
-        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\ic_plusone_standard_off_client.png"
-    },
-    {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\common_signin_btn_text_pressed_dark.9.png",
         "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\common_signin_btn_text_pressed_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\exploded-aar\\Globes\\google_play_services\\unspecified\\res\\drawable-xxhdpi-v4\\ic_plusone_standard_off_client.png"
     },
     {
         "merged": "C:\\Users\\alex-it\\AndroidSatudioProjects\\Globes\\globes\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\powered_by_google_dark.png",

@@ -5,7 +5,7 @@
     android:versionName="2.111" >
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="15"
         android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -33,6 +33,7 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <!-- GCM requires a Google account. -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name="il.co.globes.android.AppRegisterForPushApps"
@@ -502,6 +503,12 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>
+        <activity
+            android:name="net.artimedia.artiplayer.AMVideoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Globes"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
         <service android:name="net.tensera.sdk.gcm.PrefetchIntentService" />
         <!--
@@ -545,7 +552,28 @@
             <intent-filter>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
             </intent-filter>
-        </receiver>
+        </receiver> <!-- <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" /> -->
+        <activity
+            android:name="net.artimedia.amsdk.impl.activities.fake.AMFakeActivityUUIDSendServiceLauncher"
+            android:enabled="true"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <data
+                    android:host="net.artimedia.amsdk"
+                    android:scheme="artimedia" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="net.artimedia.amsdk.impl.service.AMUUIDSendService"
+            android:enabled="true" >
+        </service>
     </application>
 
 </manifest>

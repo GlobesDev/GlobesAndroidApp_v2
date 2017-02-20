@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="com_facebook_picker_divider_width">1px</dimen>
+    <dimen name="progress_bar_margin_bottom">70dp</dimen>
+    <dimen name="progress_bar_margin_top">20dp</dimen>
+    <dimen name="progress_bar_maxHeight">9dp</dimen>
+    <dimen name="progress_bar_maxWidth">276dp</dimen>
+    <dimen name="progress_bar_minHeight">9dp</dimen>
+    <dimen name="progress_bar_minWidth">276dp</dimen>
+    <dimen name="progress_bar_padding_left">10dip</dimen>
+    <dimen name="progress_bar_padding_right">10dip</dimen>
+    <dimen name="txt_size_time">14sp</dimen>
 </resources>

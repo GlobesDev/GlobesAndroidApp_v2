@@ -41,6 +41,7 @@ public class Document {
     private String playBuzz = "";
 
     private String embeddedClip = "";
+    private String clipVUrl = "";
 
     // Tagiot
     private List<Tagit> tagiot;
@@ -164,6 +165,16 @@ public class Document {
     public String getEmbeddedClip()
     {
         return embeddedClip;
+    }
+
+    public void setClipVUrl(String clipVUrl)
+    {
+        this.clipVUrl = clipVUrl;
+    }
+
+    public String getClipVUrl()
+    {
+        return clipVUrl;
     }
 
     // Attributes

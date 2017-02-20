@@ -64,6 +64,8 @@ import il.co.globes.android.objects.Response;
 import il.co.globes.android.parsers.WallaAdvParser;
 import im.spot.sdk.SpotIm;
 import im.spot.sdk.SpotImView;
+
+import net.artimedia.artiplayer.AMVideoActivity;
 import net.tensera.sdk.api.TenseraApi;
 import org.apache.http.Header;
 import org.apache.http.HttpResponse;
@@ -298,6 +300,57 @@ public class DocumentActivity_new extends Activity implements WallaAdvTaskComple
     private RelativeLayout frameWallaFusionDCScripts;
     private RelativeLayout adView_frame_bottom_phone_banner;
 
+
+    private static final String URL_NEW_PLAYER_MOVIE_2 = "http://globes-metadata-rr-d.vidnt.com/vod/vod/globes-eRnQB1-Bql2/hls/redirection_playback_url.m3u8"; //"http://devstreaming.apple.com/videos/wwdc/2016/706sgjvzkvg6rrg9icw/706/hls_vod_mvp.m3u8";
+    private static final String KEY_SITE_KEY = "siteKey";
+    private static final String KEY_VIDEO_URL = "videoURL";
+    private static final String KEY_VIDEO_ID = "videoID";
+    private static final String KEY_ENABLE_PREROLL = "enablePreRoll";
+    private static final String KEY_IS_LIVE = "isLive";
+    private static final String KEY_GENDER = "gender";
+    private static final String KEY_AGE = "age";
+
+    private static final String SITE_KEY = "globes.test";
+    private static final String VIDEO_ID = "mobileAppTest";
+    private static final boolean ENABLE_PREROLL = true;
+
+    private void startArtiPlayer(String url)
+    {
+        try {
+            JSONObject initParams = getInitParamsJSON(url);
+
+            Intent i = new Intent(this, AMVideoActivity.class);
+            i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            i.putExtra(AMVideoActivity.KEY_EXTRA_INIT_PARAMS_AS_STRING, getInitParamsJSON(url).toString());
+            startActivity(i);
+        }
+        catch (Exception e){
+            Log.e("ARTMedia", "", e);
+        }
+    }
+    private JSONObject getInitParamsJSON(String url)
+    {
+        JSONObject retVal = new JSONObject();
+
+        try {
+            retVal.put(KEY_SITE_KEY, SITE_KEY);
+            retVal.put(KEY_VIDEO_URL, URLEncoder.encode(url, "UTF-8"));
+            retVal.put(KEY_VIDEO_ID, VIDEO_ID);
+            retVal.put(KEY_ENABLE_PREROLL, ENABLE_PREROLL);
+            retVal.put(KEY_IS_LIVE, false);
+            //retVal.put(KEY_GENDER, "m");
+            //retVal.put(KEY_AGE, 34);
+        }
+        catch (JSONException e) {
+            e.printStackTrace();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        return retVal;
+    }
+
+
     @Override
     public void onPause() {
         super.onPause();
@@ -312,6 +365,13 @@ public class DocumentActivity_new extends Activity implements WallaAdvTaskComple
         // requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(icicle);
         Log.e("alex", "Document");
+
+
+          //  startArtiPlayer(URL_NEW_PLAYER_MOVIE_2);
+
+
+
+
 
         setContentView(R.layout.new_layout_document_portrait);
 
@@ -524,9 +584,12 @@ public class DocumentActivity_new extends Activity implements WallaAdvTaskComple
         webViewDocumentSubTitle.setWebViewClient(new MyWebViewClient());
         webViewDocumentSubTitle.loadData(subtitleTextHtml, "text/html; charset=utf-8", "UTF-8");
 
-        if(false && !parsedDocument.getEmbeddedClip().equals(""))
+        if(!parsedDocument.getEmbeddedClip().equals(""))
         {
             Log.e("alex", "DocumentEmbeddedClip: " + parsedDocument.getEmbeddedClip().replace("'", "\""));
+            Log.e("alex", "Document Vimmi Clip Url: " + parsedDocument.getClipVUrl());
+
+
 
             java.util.regex.Matcher matcher = REGEX_SRC_PATTERN.matcher(parsedDocument.getEmbeddedClip().replace("'", "\""));
             if (matcher.find()) {
@@ -534,11 +597,11 @@ public class DocumentActivity_new extends Activity implements WallaAdvTaskComple
 
                 if(!src.equals("")) {
 
-                    wvEmbeddedClip.setVisibility(View.VISIBLE);
-                    wvEmbeddedClip.setWebChromeClient(new WebChromeClient());
-                    wvEmbeddedClip.setWebViewClient(new WebViewClient());
-                    wvEmbeddedClip.getSettings().setJavaScriptEnabled(true);
-                    wvEmbeddedClip.loadUrl(src);
+//                    wvEmbeddedClip.setVisibility(View.VISIBLE);
+//                    wvEmbeddedClip.setWebChromeClient(new WebChromeClient());
+//                    wvEmbeddedClip.setWebViewClient(new WebViewClient());
+//                    wvEmbeddedClip.getSettings().setJavaScriptEnabled(true);
+//                    wvEmbeddedClip.loadUrl(src);
 
                     //wvEmbeddedClip.loadData(parsedDocument.getEmbeddedClip(), "text/html; charset=utf-8", "UTF-8");
                     //wvEmbeddedClip.loadData("<html><body>" + parsedDocument.getEmbeddedClip().replace("'", "\"") + "</body></html>", "text/html; charset=utf-8", "UTF-8");
@@ -548,11 +611,39 @@ public class DocumentActivity_new extends Activity implements WallaAdvTaskComple
                     //documentVideoBitmap.setImageBitmap(Utils.DownloadImage(parsedDocument.getImageFromF3()));
                     Log.e("alex", "DocumentEmbeddedClip src: " + src + " parsedDocument.getImageFromF3() v3:" + parsedDocument.getEmbeddedClip());
 
+                    buttonPlayDocumentVideo = (Button) findViewById(R.id.buttonPlayDocumentVideo);
+                    imageViewDocumentVideo.setImageBitmap(Utils.DownloadImage(parsedDocument.getImageFromF3().replace("\\/", "/")));
+                    buttonPlayDocumentVideo.setVisibility(View.VISIBLE);
+                    frameLayoutDocumentVideo.setVisibility(android.view.View.VISIBLE);
+
+                    imageViewDocumentVideo.setOnClickListener(new OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Log.e("alex", "imageViewDocumentVideo onclick event");
+                            startArtiPlayer(URL_NEW_PLAYER_MOVIE_2);
+                        }
+                    });
+
+                    buttonPlayDocumentVideo.setOnClickListener(new OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Log.e("alex", "imageViewDocumentVideo play button onclick event");
+                            startArtiPlayer(URL_NEW_PLAYER_MOVIE_2);
+                        }
+                    });
+
+
+
                     galleryObjectsArr = parsedDocument.getGalleryObjects();
                     if (galleryObjectsArr.size() > 0) {
                         for (ArticleGalleryObject item : galleryObjectsArr) {
 
                             Bitmap bitmapTest = Utils.DownloadImage(parsedDocument.getImageFromF9().replace("\\/", "/"));
+
+                            if (bitmapTest == null) {
+                                bitmapTest = Utils.DownloadImage(parsedDocument.getImageFromF3().replace("\\/", "/"));
+                            }
+
                             if (bitmapTest != null) {
                                 item.setBitmap(bitmapTest);
                             } else {

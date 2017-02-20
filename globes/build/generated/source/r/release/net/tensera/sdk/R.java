@@ -8,6 +8,6 @@ package net.tensera.sdk;
 
 public final class R {
 	public static final class string {
-		public static final int app_name = 0x7f05005f;
+		public static final int app_name = 0x7f060060;
 	}
 }
